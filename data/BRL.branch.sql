@@ -1,9 +1,9 @@
--- **What range of years for baseball games played does the provided database cover? 1871-2016
+-- **1 What range of years for baseball games played does the provided database cover? 1871-2016
 -- select min(yearid), max(yearid)
 -- from teams
 
 
---** Find the name and height of the shortest player in the database. Edward Carl 43, 1 game, SLA
+--**2 Find the name and height of the shortest player in the database. Edward Carl 43, 1 game, SLA
 -- How many games did he play in? What is the name of the team for which he played? 
 -- SELECT playerid,namefirst   --other version
 -- 		,namelast
@@ -51,7 +51,9 @@
 -- 				MIN(height) 
 -- 			   FROM people)
 -- limit 1;
--- **Find all players in the database who played at Vanderbilt University. 
+
+
+-- **3 Find all players in the database who played at Vanderbilt University. 
 --Create a list showing each player’s first and last names as well as the total salary they earned in the major leagues. 
 --Sort this list in descending order by the total salary earned. Which Vanderbilt player earned the most money in the majors? david price
 -- select
@@ -99,77 +101,168 @@
 
 
 
---'**' Find the player who had the most success stealing bases in 2016,
+--'**'6  Find the player who had the most success stealing bases in 2016,
 --where success is measured as the percentage of stolen base attempts which are successful. 
 --(A stolen base attempt results either in a stolen base or being caught stealing.)
 --Consider only players who attempted at least 20 stolen bases.
-select
-  CONCAT (namefirst, '_', namelast) AS name, -- full name,
-  SB as stolen_bases,
-  CS as failed_steals, --raw nums for success
-  round(SB * 100 / sum(SB + CS))
-  -- SB*100/(sum(CS+SB)) 
-  as successful_percent
-from
-  people
-  inner join batting using (playerid)
-where
-  (SB + cs) >= '20'
-  and yearid = '2016'
-  and CS is not Null
-group by
-  Name,
-  stolen_bases,
-  failed_steals
-order by
-  successful_percent desc
+-- select --my answer
+--   CONCAT (namefirst, '_', namelast) AS name, -- full name,
+--   SB as stolen_bases,
+--   CS as failed_steals,--raw nums for success
+--   (CS+SB) as attempts,
+--   round(SB * 100 / sum(SB + CS))
+--   -- SB*100/(sum(CS+SB)) 
+--   as successful_percent
+-- from
+--   people
+--   inner join batting using (playerid)
+-- where
+--   (SB + cs) >= '20'
+--   and yearid = '2016'
+--   and CS is not Null
+-- group by
+--   Name,
+--   stolen_bases,
+--   failed_steals
+-- order by
+--   successful_percent desc
 
+-- SELECT
+-- --SUM's so we can check our math and/or for accuracy
+-- 	CONCAT(
+-- 	p.namefirst, '_', p.namelast
+-- 	) AS player,
+-- 	SUM(cs) AS caught_stealing,
+-- 	SUM(sb) AS stolen_bases,
+-- 	SUM(cs+sb) AS attempts,
+-- --CONCAT to add % SUM and ROUND * 100.0 to ensure we get a decimal and it remains readable
+-- 	CONCAT(
+-- 	ROUND(
+-- 		SUM(sb) * 100.0 / (SUM(cs + sb)), 2),
+-- 		'%') AS success_percent
+-- FROM
+-- 	batting AS fp
+-- 	RIGHT JOIN people AS p
+-- 	ON fp.playerid = p.playerid
+-- WHERE 
+-- 	yearid= '2016'
+-- 	-- ENSURE only players with 20+ attempts are counted
+-- 	and (cs+sb) >=20
 
+-- GROUP BY
+-- 	p.playerid
+-- ORDER BY
+-- 	success_percent DESC
+-- ;
 
--- From 1970 – 2016, what is the largest number of wins for a team that did not win the world series?
+--7 From 1970 – 2016, what is the largest number of wins for a team that did not win the world series?
 --What is the smallest number of wins for a team that did win the world series? 
 -- Doing this will probably result in an unusually small number of wins for a world series champion – determine why this is the case.
 -- Then redo your query, excluding the problem year. 
 -- How often from 1970 – 2016 was it the case that a team with the most wins also won the world series? What percentage of the time?
 
+-- SELECT
+-- 	teamID,
+-- 	yearID,
+-- 	SUM(CASE
+-- 			WHEN WSWin = 'N' THEN W ELSE 0 END
+-- 			) AS wins_with_noWS,
+-- 	SUM(CASE
+-- 			WHEN WSWin = 'Y' THEN W ELSE 0 END
+-- 			) AS wins_with_WSwin,
+-- 	WSWin
+-- FROM
+-- 	teams AS t
+-- WHERE yearID BETWEEN 1970 AND 2016
+-- GROUP BY yearID, teamID, WSWin
 
+-- --			*****Many wins with no WS*****
 
+-- --ORDER BY wins_with_nows DESC
+-- 			--Few wins with a WS
 
+-- --          *****FEW WINS WITH A WS*****
 
--- Using the attendance figures from the homegames table, find the teams and parks which had the top 5 average attendance per game in 2016 
+-- HAVING SUM(CASE WHEN WSWin = 'Y' AND W >=1 THEN W ELSE 0 END) > 0
+-- ORDER BY wins_with_WSwin ASC
+--part2
+---- May God have mercy on me
+-- WITH big_filter AS(
+-- 	WITH yw_filter AS (
+-- 		SELECT yearid
+-- 		,MAX(w) AS most_wins
+-- 	FROM teams
+-- 	GROUP BY yearid
+-- 	) SELECT DISTINCT yearid
+-- 			,name
+-- 			,w
+-- 	FROM teams
+-- 		INNER JOIN yw_filter
+-- 			USING (yearid)
+-- 	WHERE wswin = 'Y'
+-- 		AND yearid BETWEEN 1970 AND 2016
+-- 		AND yearid <> 1981
+-- 		AND w = most_wins
+-- 	GROUP BY name, yearid, w
+-- 	ORDER BY yearid
+-- 	) SELECT TO_CHAR(ROUND((COUNT(*)::NUMERIC)/(2016-1970) * 100, 2), 'FM990.00%')
+-- 		AS percent_mw_and_ws
+-- 	FROM big_filter;
+
+--**8 Using the attendance figures from the homegames table, find the teams and parks which had the top 5 average attendance per game in 2016 
 --(where average attendance is defined as total attendance divided by number of games). 
 --Only consider parks where there were at least 10 games played. 
 --Report the park name, team name, and average attendance. Repeat for the lowest 5 average attendance.
-select park, team, games, attendance
-from homegames
-where yearid='2016'
-order by attendance desc
-limit 5
+-- select
+--   park,
+--   team,
+--   games,
+--   attendance,
+--   (attendance / games) as average_attendance
+-- from
+--   homegames
+-- where
+--   year = '2016'
+--   and games >= 10
+-- order by
+--   average_attendance asc --desc
+-- limit
+--   5
 
--- Which managers have won the TSN Manager of the Year award in both the National League (NL) and the American League (AL)? 
+--9 Which managers have won the TSN Manager of the Year award in both the National League (NL) and the American League (AL)? 
 --Give their full name and the teams that they were managing when they won the award.
+select
+	managers.playerid
+from managers
+left join awardsmanagers using (yearid)
 
 
 
-
-
--- Find all players who hit their career highest number of home runs in 2016. 
+--10 Find all players who hit their career highest number of home runs in 2016. 
 --Consider only players who have played in the league for at least 10 years, and who hit at least one home run in 2016. 
 --Report the players' first and last names and the number of home runs they hit in 2016.
 
+select 
+		CONCAT(
+	namefirst, '_', namelast
+	) AS player,
+HR
+from people
+left join batting using (playerid)
+where  HR >=1
 
 
 
 
 
 
--- Is there any correlation between number of wins and team salary? 
+-- 11 Is there any correlation between number of wins and team salary? 
 --Use data from 2000 and later to answer this question. 
 --As you do this analysis, keep in mind that salaries across the whole league tend to increase together, so you may want to look on a year-by-year basis.
 
--- In this question, you will explore the connection between number of wins and attendance.
+-- 12 In this question, you will explore the connection between number of wins and attendance.
 
--- Does there appear to be any correlation between attendance at home games and number of wins?
+-- 13 Does there appear to be any correlation between attendance at home games and number of wins?
 -- Do teams that win the world series see a boost in attendance the following year?
 --What about teams that made the playoffs? Making the playoffs means either being a division winner or a wild card winner.
 -- It is thought that since left-handed pitchers are more rare, causing batters to face them less often, that they are more effective.
