@@ -96,9 +96,15 @@
 
 -- 5 Find the average number of strikeouts per game by decade since 1920. 
 -- Round the numbers you report to 2 decimal places. Do the same for home runs per game. Do you see any trends?
--- use batters
-
-
+-- use  batting
+-- with avg_strikeouts as (
+-- 	select avg(So)
+-- 	from batting)
+SELECT (FLOOR(yearid/10) * 10) AS decade
+		,COALESCE(ROUND(SUM(so::numeric)/SUM(g::numeric), 2), 0) AS avg_so
+		,COALESCE(ROUND(SUM(hr::numeric)/SUM(g::numeric), 2), 0) AS avg_hr
+FROM batting
+GROUP BY decade;
 
 
 --'**'6  Find the player who had the most success stealing bases in 2016,
@@ -155,7 +161,7 @@
 -- 	success_percent DESC
 -- ;
 
---7 From 1970 – 2016, what is the largest number of wins for a team that did not win the world series?
+--**7 From 1970 – 2016, what is the largest number of wins for a team that did not win the world series?
 --What is the smallest number of wins for a team that did win the world series? 
 -- Doing this will probably result in an unusually small number of wins for a world series champion – determine why this is the case.
 -- Then redo your query, excluding the problem year. 
@@ -229,27 +235,67 @@
 -- limit
 --   5
 
---9 Which managers have won the TSN Manager of the Year award in both the National League (NL) and the American League (AL)? 
+--**9 Which managers have won the TSN Manager of the Year award in both the National League (NL) and the American League (AL)? 
 --Give their full name and the teams that they were managing when they won the award.
-select
-	managers.playerid
-from managers
-left join awardsmanagers using (yearid)
+-- select -- my attmept
+-- 	CONCAT(
+-- 	namefirst, '_', namelast
+-- 	) AS manager, 
+-- 	name, 
+-- 	awardid, 
+-- 	awardsmanagers.lgID
+-- from managers
+-- left join people using (playerid)
+-- left join awardsmanagers using (yearid)
+-- left join teams using (teamid)
+-- where awardid LIKE '%TSN%'
+-- 	and awardsmanagers.lgid in ('AL','NL')
 
+
+-- WITH double_awarded AS (
+--     SELECT 
+-- 		playerid
+--     FROM 
+-- 		awardsmanagers
+--     WHERE awardid LIKE '%TSN%'
+--         AND lgid IN ('AL', 'NL')
+--     GROUP BY playerid
+--     HAVING COUNT(DISTINCT lgid) = 2
+-- )
+-- SELECT 
+-- 	DISTINCT CONCAT(p.namefirst, '_', p.namelast) AS manager,
+-- 	t.name, 
+-- 	am.yearid, 
+-- 	am.awardid, 
+-- 	am.lgid
+-- FROM 
+-- 	awardsmanagers AS am
+-- INNER JOIN double_awarded AS da
+--     ON am.playerid = da.playerid
+-- LEFT JOIN people AS p
+-- 	ON am.playerid = p.playerid
+-- LEFT JOIN managers AS m
+-- 	ON am.playerid = m.playerid
+-- 	AND am.yearid = m.yearid
+-- LEFT JOIN teams AS t
+-- 	ON m.teamid = t.teamid
+-- WHERE am.awardid LIKE '%TSN%'
+--     AND am.lgid IN ('AL', 'NL')
+-- ORDER BY manager, am.yearid;
 
 
 --10 Find all players who hit their career highest number of home runs in 2016. 
 --Consider only players who have played in the league for at least 10 years, and who hit at least one home run in 2016. 
 --Report the players' first and last names and the number of home runs they hit in 2016.
-
+--debut-final_game
 select 
 		CONCAT(
 	namefirst, '_', namelast
-	) AS player,
-HR
+	) AS player, 
+	HR
 from people
 left join batting using (playerid)
-where  HR >=1
+where  HR >=1 
 
 
 
