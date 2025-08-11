@@ -309,18 +309,21 @@ where  HR >=1  and yearid ='2016'
 -- Do teams that win the world series see a boost in attendance the following year?
 --What about teams that made the playoffs? Making the playoffs means either being a division winner or a wild card winner.
 select 
-yearid, 
-teamid, 
-divwin,
-wcwin,
-attendance
+	yearid, 
+	teamid, 
+	divwin,
+	wcwin,
+	attendance,
+	lag(attendance) 
+		over(order by teamid, yearid) 
+			as last_year_attendance
 from teams
-where wcwin is not null and divwin is not null
+where wcwin is not null or divwin is not null
 
 order by teamid, yearid
 
-select * 
-from teams
+-- select * 
+-- from teams
 
 --- teams 
 --DivWin         Division Winner (Y or N)
