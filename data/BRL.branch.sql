@@ -94,17 +94,17 @@
 
 
 
--- 5 Find the average number of strikeouts per game by decade since 1920. 
+-- **5 Find the average number of strikeouts per game by decade since 1920. 
 -- Round the numbers you report to 2 decimal places. Do the same for home runs per game. Do you see any trends?
 -- use  batting
 -- with avg_strikeouts as (
 -- 	select avg(So)
 -- 	from batting)
-SELECT (FLOOR(yearid/10) * 10) AS decade
-		,COALESCE(ROUND(SUM(so::numeric)/SUM(g::numeric), 2), 0) AS avg_so
-		,COALESCE(ROUND(SUM(hr::numeric)/SUM(g::numeric), 2), 0) AS avg_hr
-FROM batting
-GROUP BY decade;
+-- SELECT (FLOOR(yearid/10) * 10) AS decade
+-- 		,COALESCE(ROUND(SUM(so::numeric)/SUM(g::numeric), 2), 0) AS avg_so
+-- 		,COALESCE(ROUND(SUM(hr::numeric)/SUM(g::numeric), 2), 0) AS avg_hr
+-- FROM batting
+-- GROUP BY decade;
 
 
 --'**'6  Find the player who had the most success stealing bases in 2016,
@@ -113,12 +113,13 @@ GROUP BY decade;
 --Consider only players who attempted at least 20 stolen bases.
 -- select --my answer
 --   CONCAT (namefirst, '_', namelast) AS name, -- full name,
---   SB as stolen_bases,
---   CS as failed_steals,--raw nums for success
+--   SB as stolen_bases, -- raw for success
+--   CS as caught_stealing,--raw nums for fails
 --   (CS+SB) as attempts,
---   round(SB * 100 / sum(SB + CS))
---   -- SB*100/(sum(CS+SB)) 
---   as successful_percent
+-- 	CONCAT(
+-- 		ROUND(
+-- 			SUM(sb) * 100.0 / (SUM(cs + sb)), 2),
+-- 			'%') AS success_percent
 -- from
 --   people
 --   inner join batting using (playerid)
@@ -129,9 +130,9 @@ GROUP BY decade;
 -- group by
 --   Name,
 --   stolen_bases,
---   failed_steals
+--   caught_stealing
 -- order by
---   successful_percent desc
+--   success_percent desc
 
 -- SELECT
 -- --SUM's so we can check our math and/or for accuracy
@@ -160,6 +161,7 @@ GROUP BY decade;
 -- ORDER BY
 -- 	success_percent DESC
 -- ;
+
 
 --**7 From 1970 – 2016, what is the largest number of wins for a team that did not win the world series?
 --What is the smallest number of wins for a team that did win the world series? 
@@ -191,8 +193,8 @@ GROUP BY decade;
 
 -- HAVING SUM(CASE WHEN WSWin = 'Y' AND W >=1 THEN W ELSE 0 END) > 0
 -- ORDER BY wins_with_WSwin ASC
---part2
----- May God have mercy on me
+-- --part2
+-- -- May God have mercy on me for newforce is not
 -- WITH big_filter AS(
 -- 	WITH yw_filter AS (
 -- 		SELECT yearid
@@ -211,19 +213,18 @@ GROUP BY decade;
 -- 		AND w = most_wins
 -- 	GROUP BY name, yearid, w
 -- 	ORDER BY yearid
--- 	) SELECT TO_CHAR(ROUND((COUNT(*)::NUMERIC)/(2016-1970) * 100, 2), 'FM990.00%')
--- 		AS percent_mw_and_ws
+-- 	) SELECT TO_CHAR(((COUNT(*)::NUMERIC)/(2016-1971) * 100), 'FM990.00%')
+-- 		AS percent_maxw_and_ws
 -- 	FROM big_filter;
 
 --**8 Using the attendance figures from the homegames table, find the teams and parks which had the top 5 average attendance per game in 2016 
 --(where average attendance is defined as total attendance divided by number of games). 
 --Only consider parks where there were at least 10 games played. 
---Report the park name, team name, and average attendance. Repeat for the lowest 5 average attendance.
+-- --Report the park name, team name, and average attendance. Repeat for the lowest 5 average attendance.
 -- select
 --   park,
 --   team,
 --   games,
---   attendance,
 --   (attendance / games) as average_attendance
 -- from
 --   homegames
@@ -245,6 +246,7 @@ GROUP BY decade;
 -- 	awardid, 
 -- 	awardsmanagers.lgID
 -- from managers
+
 -- left join people using (playerid)
 -- left join awardsmanagers using (yearid)
 -- left join teams using (teamid)
@@ -288,6 +290,7 @@ GROUP BY decade;
 --Consider only players who have played in the league for at least 10 years, and who hit at least one home run in 2016. 
 --Report the players' first and last names and the number of home runs they hit in 2016.
 --debut-final_game
+-- years of debut from final game, filter to only be those who meet that criteria. Filter command?
 select 
 		CONCAT(
 	namefirst, '_', namelast
@@ -295,23 +298,32 @@ select
 	HR
 from people
 left join batting using (playerid)
-where  HR >=1 
+where  HR >=1  and yearid ='2016' 
 
 
 
 
 
 
--- 11 Is there any correlation between number of wins and team salary? 
---Use data from 2000 and later to answer this question. 
---As you do this analysis, keep in mind that salaries across the whole league tend to increase together, so you may want to look on a year-by-year basis.
-
--- 12 In this question, you will explore the connection between number of wins and attendance.
-
--- 13 Does there appear to be any correlation between attendance at home games and number of wins?
+-- 12  Does there appear to be any correlation between attendance at home games and number of wins?
 -- Do teams that win the world series see a boost in attendance the following year?
 --What about teams that made the playoffs? Making the playoffs means either being a division winner or a wild card winner.
--- It is thought that since left-handed pitchers are more rare, causing batters to face them less often, that they are more effective.
---Investigate this claim and present evidence to either support or dispute this claim.
--- First, determine just how rare left-handed pitchers are compared with right-handed pitchers.
--- Are left-handed pitchers more likely to win the Cy Young Award? Are they more likely to make it into the hall of fame?
+select 
+yearid, 
+teamid, 
+divwin,
+wcwin,
+attendance
+from teams
+where wcwin is not null and divwin is not null
+
+order by teamid, yearid
+
+select * 
+from teams
+
+--- teams 
+--DivWin         Division Winner (Y or N)
+--WCWin          Wild Card Winner (Y or N)
+-- case( 
+-- when DivWin or WCWin is Y, post year and attendance of and before
