@@ -302,31 +302,77 @@ where  HR >=1  and yearid ='2016'
 
 
 
-
-
-
--- 12  Does there appear to be any correlation between attendance at home games and number of wins?
--- Do teams that win the world series see a boost in attendance the following year?
---What about teams that made the playoffs? Making the playoffs means either being a division winner or a wild card winner.
-select 
-	yearid, 
-	teamid, 
-	divwin,
-	wcwin,
-	attendance,
-	lag(attendance) 
-		over(order by teamid, yearid) 
-			as last_year_attendance
-from teams
-where wcwin is not null or divwin is not null
-
-order by teamid, yearid
-
--- select * 
--- from teams
-
 --- teams 
 --DivWin         Division Winner (Y or N)
 --WCWin          Wild Card Winner (Y or N)
 -- case( 
 -- when DivWin or WCWin is Y, post year and attendance of and before
+-- 12  Does there appear to be any correlation between attendance at home games and number of wins?
+-- general trends of the sport lead throughout the multiple teams
+-- Do teams that win the world series see a boost in attendance the following year?
+--What about teams that made the playoffs? Making the playoffs means either being a division winner or a wild card winner.
+
+SELECT
+    CASE
+        WHEN t1.wswin = 'Y' THEN 'WS Winner'
+        WHEN t1.divwin = 'Y' OR t1.wcwin = 'Y' THEN 'Playoff Team'
+        ELSE 'Non-Playoff'
+    END AS team_type,
+    ROUND(AVG((t2.attendance - t1.attendance) * 100.0 / t1.attendance), 2) AS avg_pct_change,
+    COUNT(*) AS seasons_count
+FROM
+	teams t1
+	INNER JOIN teams t2
+   		ON t1.teamid = t2.teamid
+   		AND t2.yearid = t1.yearid + 1
+WHERE
+	t1.attendance IS NOT NULL
+  	AND t2.attendance IS NOT NULL
+GROUP BY team_type
+ORDER BY avg_pct_change DESC;
+
+
+-- select --my attempt
+-- 	yearid, 
+-- 	teamid, 
+-- 	case 
+-- 	when divwin = 'Y' or wcwin = 'Y' then 'Playoffs made'
+-- 	else 'No playoffs'
+-- 	end as playoffs,
+-- 	attendance,
+-- 	lag(attendance) --works to get last year but needs more criteria to work properly
+-- 		over(order by teamid, yearid) 
+-- 			as last_year_attendance
+-- from 
+-- 	teams
+-- -- 	(select
+-- -- 		yearid,
+-- -- 		teamid,
+-- -- 		lag(attendance) --works to get last year but needs more criteria to work properly
+-- -- 		over(order by teamid, yearid) 
+-- -- 			as last_year_attendance
+
+-- -- 		from teams) as T
+-- -- left join teams as last_year_attendance
+-- where wcwin is not null or divwin is not null
+
+-- order by teamid, yearid
+
+
+SELECT  
+	name,
+	yearid,
+	attendance,
+	attendance - (LEAD(attendance) 
+		OVER(ORDER BY teamid, yearid) 
+			) AS change_attendace,
+	wswin,
+	case 
+	when divwin = 'Y' or wcwin = 'Y' then 'Playoffs made'
+	else 'No playoffs'
+	end as playoffs
+FROM teams
+WHERE wcwin IS NOT NULL OR divwin IS NOT NULL
+
+order by teamid, yearid
+;
