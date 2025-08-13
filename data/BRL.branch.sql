@@ -291,16 +291,34 @@
 --Report the players' first and last names and the number of home runs they hit in 2016.
 --debut-final_game
 -- years of debut from final game, filter to only be those who meet that criteria. Filter command?
-select 
-		CONCAT(
-	namefirst, '_', namelast
-	) AS player, 
-	HR
-from people
-left join batting using (playerid)
-where  HR >=1  and yearid ='2016' 
-
-
+SELECT
+	CONCAT(namefirst, ' ', namelast) AS player_name,
+	b.hr AS hr_2016
+FROM
+	people p
+	INNER JOIN
+		batting b USING (playerid)
+WHERE
+	b.yearid = 2016
+	AND b.hr >= 1
+	AND (
+		SELECT
+			COUNT(DISTINCT yearid)
+		FROM
+			batting
+		WHERE
+			playerid = b.playerid
+	) >= 10 -- subquery to include players w/ at least 10 seasons
+	AND b.hr = (
+		SELECT
+			MAX(hr)
+		FROM
+			batting
+		WHERE
+			playerid = b.playerid
+	) -- subquery to include players w/ max career HR total occurring in 2016
+ORDER BY
+	b.hr DESC;
 
 --- teams 
 --DivWin         Division Winner (Y or N)
