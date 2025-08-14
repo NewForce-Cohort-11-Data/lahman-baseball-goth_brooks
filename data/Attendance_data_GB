@@ -1,0 +1,1291 @@
+"name","yearid","attendance","last_year_attendance","wswin","divwin","wcwin"
+"Anaheim Angels",1997,1767330,NULL,"N","N","N"
+"Anaheim Angels",1998,2519280,1767330,"N","N","N"
+"Anaheim Angels",1999,2253123,2519280,"N","N","N"
+"Anaheim Angels",2000,2066982,2253123,"N","N","N"
+"Anaheim Angels",2001,2000919,2066982,"N","N","N"
+"Anaheim Angels",2002,2305547,2000919,"Y","N","Y"
+"Anaheim Angels",2003,3061094,2305547,"N","N","N"
+"Anaheim Angels",2004,3375677,3061094,"N","Y","N"
+"Arizona Diamondbacks",1998,3610290,3375677,"N","N","N"
+"Arizona Diamondbacks",1999,3019654,3610290,"N","Y","N"
+"Arizona Diamondbacks",2000,2942251,3019654,"N","N","N"
+"Arizona Diamondbacks",2001,2736451,2942251,"Y","Y","N"
+"Arizona Diamondbacks",2002,3198977,2736451,"N","Y","N"
+"Arizona Diamondbacks",2003,2805542,3198977,"N","N","N"
+"Arizona Diamondbacks",2004,2519560,2805542,"N","N","N"
+"Arizona Diamondbacks",2005,2059424,2519560,"N","N","N"
+"Arizona Diamondbacks",2006,2091685,2059424,"N","N","N"
+"Arizona Diamondbacks",2007,2325249,2091685,"N","Y","N"
+"Arizona Diamondbacks",2008,2509924,2325249,"N","N","N"
+"Arizona Diamondbacks",2009,2128765,2509924,"N","N","N"
+"Arizona Diamondbacks",2010,2056941,2128765,"N","N","N"
+"Arizona Diamondbacks",2011,2105432,2056941,"N","Y","N"
+"Arizona Diamondbacks",2012,2177617,2105432,"N","N","N"
+"Arizona Diamondbacks",2013,2134795,2177617,"N","N","N"
+"Arizona Diamondbacks",2014,2073730,2134795,"N","N","N"
+"Arizona Diamondbacks",2015,2080145,2073730,"N","N","N"
+"Arizona Diamondbacks",2016,2036216,2080145,"N","N","N"
+"Atlanta Braves",1969,1458320,2036216,"N","Y",NULL
+"Atlanta Braves",1970,1078848,1458320,"N","N",NULL
+"Atlanta Braves",1971,1006320,1078848,"N","N",NULL
+"Atlanta Braves",1972,752973,1006320,"N","N",NULL
+"Atlanta Braves",1973,800655,752973,"N","N",NULL
+"Atlanta Braves",1974,981085,800655,"N","N",NULL
+"Atlanta Braves",1975,534672,981085,"N","N",NULL
+"Atlanta Braves",1976,818179,534672,"N","N",NULL
+"Atlanta Braves",1977,872464,818179,"N","N",NULL
+"Atlanta Braves",1978,904494,872464,"N","N",NULL
+"Atlanta Braves",1979,769465,904494,"N","N",NULL
+"Atlanta Braves",1980,1048411,769465,"N","N",NULL
+"Atlanta Braves",1981,535418,1048411,"N","N",NULL
+"Atlanta Braves",1982,1801985,535418,"N","Y",NULL
+"Atlanta Braves",1983,2119935,1801985,"N","N",NULL
+"Atlanta Braves",1984,1724892,2119935,"N","N",NULL
+"Atlanta Braves",1985,1350137,1724892,"N","N",NULL
+"Atlanta Braves",1986,1387181,1350137,"N","N",NULL
+"Atlanta Braves",1987,1217402,1387181,"N","N",NULL
+"Atlanta Braves",1988,848089,1217402,"N","N",NULL
+"Atlanta Braves",1989,984930,848089,"N","N",NULL
+"Atlanta Braves",1990,980129,984930,"N","N",NULL
+"Atlanta Braves",1991,2140217,980129,"N","Y",NULL
+"Atlanta Braves",1992,3077400,2140217,"N","Y",NULL
+"Atlanta Braves",1993,3884720,3077400,"N","Y",NULL
+"Atlanta Braves",1995,2561831,3884720,"Y","Y","N"
+"Atlanta Braves",1996,2901242,2561831,"N","Y","N"
+"Atlanta Braves",1997,3464488,2901242,"N","Y","N"
+"Atlanta Braves",1998,3360860,3464488,"N","Y","N"
+"Atlanta Braves",1999,3284897,3360860,"N","Y","N"
+"Atlanta Braves",2000,3234304,3284897,"N","Y","N"
+"Atlanta Braves",2001,2823530,3234304,"N","Y","N"
+"Atlanta Braves",2002,2603484,2823530,"N","Y","N"
+"Atlanta Braves",2003,2401084,2603484,"N","Y","N"
+"Atlanta Braves",2004,2327565,2401084,"N","Y","N"
+"Atlanta Braves",2005,2521167,2327565,"N","Y","N"
+"Atlanta Braves",2006,2550524,2521167,"N","N","N"
+"Atlanta Braves",2007,2745207,2550524,"N","N","N"
+"Atlanta Braves",2008,2532834,2745207,"N","N","N"
+"Atlanta Braves",2009,2373631,2532834,"N","N","N"
+"Atlanta Braves",2010,2510119,2373631,"N","N","Y"
+"Atlanta Braves",2011,2372940,2510119,"N","N","N"
+"Atlanta Braves",2012,2420171,2372940,"N","N","Y"
+"Atlanta Braves",2013,2548679,2420171,"N","Y","N"
+"Atlanta Braves",2014,2354305,2548679,"N","N","N"
+"Atlanta Braves",2015,2001392,2354305,"N","N","N"
+"Atlanta Braves",2016,2020914,2001392,"N","N","N"
+"Baltimore Orioles",1969,1062069,2020914,"N","Y",NULL
+"Baltimore Orioles",1970,1057069,1062069,"Y","Y",NULL
+"Baltimore Orioles",1971,1023037,1057069,"N","Y",NULL
+"Baltimore Orioles",1972,899950,1023037,"N","N",NULL
+"Baltimore Orioles",1973,958667,899950,"N","Y",NULL
+"Baltimore Orioles",1974,962572,958667,"N","Y",NULL
+"Baltimore Orioles",1975,1002157,962572,"N","N",NULL
+"Baltimore Orioles",1976,1058609,1002157,"N","N",NULL
+"Baltimore Orioles",1977,1195769,1058609,"N","N",NULL
+"Baltimore Orioles",1978,1051724,1195769,"N","N",NULL
+"Baltimore Orioles",1979,1681009,1051724,"N","Y",NULL
+"Baltimore Orioles",1980,1797438,1681009,"N","N",NULL
+"Baltimore Orioles",1981,1024247,1797438,"N","N",NULL
+"Baltimore Orioles",1982,1613031,1024247,"N","N",NULL
+"Baltimore Orioles",1983,2042071,1613031,"Y","Y",NULL
+"Baltimore Orioles",1984,2045784,2042071,"N","N",NULL
+"Baltimore Orioles",1985,2132387,2045784,"N","N",NULL
+"Baltimore Orioles",1986,1973176,2132387,"N","N",NULL
+"Baltimore Orioles",1987,1835692,1973176,"N","N",NULL
+"Baltimore Orioles",1988,1660738,1835692,"N","N",NULL
+"Baltimore Orioles",1989,2535208,1660738,"N","N",NULL
+"Baltimore Orioles",1990,2415189,2535208,"N","N",NULL
+"Baltimore Orioles",1991,2552753,2415189,"N","N",NULL
+"Baltimore Orioles",1992,3567819,2552753,"N","N",NULL
+"Baltimore Orioles",1993,3644965,3567819,"N","N",NULL
+"Baltimore Orioles",1995,3098475,3644965,"N","N","N"
+"Baltimore Orioles",1996,3646950,3098475,"N","N","Y"
+"Baltimore Orioles",1997,3711132,3646950,"N","Y","N"
+"Baltimore Orioles",1998,3684650,3711132,"N","N","N"
+"Baltimore Orioles",1999,3433150,3684650,"N","N","N"
+"Baltimore Orioles",2000,3297031,3433150,"N","N","N"
+"Baltimore Orioles",2001,3094841,3297031,"N","N","N"
+"Baltimore Orioles",2002,2682439,3094841,"N","N","N"
+"Baltimore Orioles",2003,2454523,2682439,"N","N","N"
+"Baltimore Orioles",2004,2744018,2454523,"N","N","N"
+"Baltimore Orioles",2005,2624740,2744018,"N","N","N"
+"Baltimore Orioles",2006,2153139,2624740,"N","N","N"
+"Baltimore Orioles",2007,2164822,2153139,"N","N","N"
+"Baltimore Orioles",2008,1950075,2164822,"N","N","N"
+"Baltimore Orioles",2009,1907163,1950075,"N","N","N"
+"Baltimore Orioles",2010,1733018,1907163,"N","N","N"
+"Baltimore Orioles",2011,1755461,1733018,"N","N","N"
+"Baltimore Orioles",2012,2102240,1755461,"N","N","Y"
+"Baltimore Orioles",2013,2357561,2102240,"N","N","N"
+"Baltimore Orioles",2014,2464473,2357561,"N","Y","N"
+"Baltimore Orioles",2015,2281202,2464473,"N","N","N"
+"Baltimore Orioles",2016,2172344,2281202,"N","N","Y"
+"Boston Red Sox",1969,1833246,2172344,"N","N",NULL
+"Boston Red Sox",1970,1595278,1833246,"N","N",NULL
+"Boston Red Sox",1971,1678732,1595278,"N","N",NULL
+"Boston Red Sox",1972,1441718,1678732,"N","N",NULL
+"Boston Red Sox",1973,1481002,1441718,"N","N",NULL
+"Boston Red Sox",1974,1556411,1481002,"N","N",NULL
+"Boston Red Sox",1975,1748587,1556411,"N","Y",NULL
+"Boston Red Sox",1976,1895846,1748587,"N","N",NULL
+"Boston Red Sox",1977,2074549,1895846,"N","N",NULL
+"Boston Red Sox",1978,2320643,2074549,"N","N",NULL
+"Boston Red Sox",1979,2353114,2320643,"N","N",NULL
+"Boston Red Sox",1980,1956092,2353114,"N","N",NULL
+"Boston Red Sox",1981,1060379,1956092,"N","N",NULL
+"Boston Red Sox",1982,1950124,1060379,"N","N",NULL
+"Boston Red Sox",1983,1782285,1950124,"N","N",NULL
+"Boston Red Sox",1984,1661618,1782285,"N","N",NULL
+"Boston Red Sox",1985,1786633,1661618,"N","N",NULL
+"Boston Red Sox",1986,2147641,1786633,"N","Y",NULL
+"Boston Red Sox",1987,2231551,2147641,"N","N",NULL
+"Boston Red Sox",1988,2464851,2231551,"N","Y",NULL
+"Boston Red Sox",1989,2510012,2464851,"N","N",NULL
+"Boston Red Sox",1990,2528986,2510012,"N","Y",NULL
+"Boston Red Sox",1991,2562435,2528986,"N","N",NULL
+"Boston Red Sox",1992,2468574,2562435,"N","N",NULL
+"Boston Red Sox",1993,2422021,2468574,"N","N",NULL
+"Boston Red Sox",1995,2164410,2422021,"N","Y","N"
+"Boston Red Sox",1996,2315231,2164410,"N","N","N"
+"Boston Red Sox",1997,2226136,2315231,"N","N","N"
+"Boston Red Sox",1998,2314704,2226136,"N","N","Y"
+"Boston Red Sox",1999,2446162,2314704,"N","N","Y"
+"Boston Red Sox",2000,2585895,2446162,"N","N","N"
+"Boston Red Sox",2001,2625333,2585895,"N","N","N"
+"Boston Red Sox",2002,2650862,2625333,"N","N","N"
+"Boston Red Sox",2003,2724165,2650862,"N","N","Y"
+"Boston Red Sox",2004,2837294,2724165,"Y","N","Y"
+"Boston Red Sox",2005,2847888,2837294,"N","N","Y"
+"Boston Red Sox",2006,2930588,2847888,"N","N","N"
+"Boston Red Sox",2007,2970755,2930588,"Y","Y","N"
+"Boston Red Sox",2008,3048250,2970755,"N","N","Y"
+"Boston Red Sox",2009,3062699,3048250,"N","N","Y"
+"Boston Red Sox",2010,3046443,3062699,"N","N","N"
+"Boston Red Sox",2011,3054001,3046443,"N","N","N"
+"Boston Red Sox",2012,3043003,3054001,"N","N","N"
+"Boston Red Sox",2013,2833333,3043003,"Y","Y","N"
+"Boston Red Sox",2014,2956089,2833333,"N","N","N"
+"Boston Red Sox",2015,2880694,2956089,"N","N","N"
+"Boston Red Sox",2016,2955434,2880694,"N","Y","N"
+"California Angels",1969,758388,2955434,"N","N",NULL
+"California Angels",1970,1077741,758388,"N","N",NULL
+"California Angels",1971,926373,1077741,"N","N",NULL
+"California Angels",1972,744190,926373,"N","N",NULL
+"California Angels",1973,1058206,744190,"N","N",NULL
+"California Angels",1974,917269,1058206,"N","N",NULL
+"California Angels",1975,1058163,917269,"N","N",NULL
+"California Angels",1976,1006774,1058163,"N","N",NULL
+"California Angels",1977,1432633,1006774,"N","N",NULL
+"California Angels",1978,1755386,1432633,"N","N",NULL
+"California Angels",1979,2523575,1755386,"N","Y",NULL
+"California Angels",1980,2297327,2523575,"N","N",NULL
+"California Angels",1981,1441545,2297327,"N","N",NULL
+"California Angels",1982,2807360,1441545,"N","Y",NULL
+"California Angels",1983,2555016,2807360,"N","N",NULL
+"California Angels",1984,2402997,2555016,"N","N",NULL
+"California Angels",1985,2567427,2402997,"N","N",NULL
+"California Angels",1986,2655872,2567427,"N","Y",NULL
+"California Angels",1987,2696299,2655872,"N","N",NULL
+"California Angels",1988,2340925,2696299,"N","N",NULL
+"California Angels",1989,2647291,2340925,"N","N",NULL
+"California Angels",1990,2555688,2647291,"N","N",NULL
+"California Angels",1991,2416236,2555688,"N","N",NULL
+"California Angels",1992,2065444,2416236,"N","N",NULL
+"California Angels",1993,2057460,2065444,"N","N",NULL
+"California Angels",1995,1748680,2057460,"N","N","N"
+"California Angels",1996,1820521,1748680,"N","N","N"
+"Chicago White Sox",1969,589546,1820521,"N","N",NULL
+"Chicago White Sox",1970,495355,589546,"N","N",NULL
+"Chicago White Sox",1971,833891,495355,"N","N",NULL
+"Chicago White Sox",1972,1177318,833891,"N","N",NULL
+"Chicago White Sox",1973,1302527,1177318,"N","N",NULL
+"Chicago White Sox",1974,1149596,1302527,"N","N",NULL
+"Chicago White Sox",1975,750802,1149596,"N","N",NULL
+"Chicago White Sox",1976,914945,750802,"N","N",NULL
+"Chicago White Sox",1977,1657135,914945,"N","N",NULL
+"Chicago White Sox",1978,1491100,1657135,"N","N",NULL
+"Chicago White Sox",1979,1280702,1491100,"N","N",NULL
+"Chicago White Sox",1980,1200365,1280702,"N","N",NULL
+"Chicago White Sox",1981,946651,1200365,"N","N",NULL
+"Chicago White Sox",1982,1567787,946651,"N","N",NULL
+"Chicago White Sox",1983,2132821,1567787,"N","Y",NULL
+"Chicago White Sox",1984,2136988,2132821,"N","N",NULL
+"Chicago White Sox",1985,1669888,2136988,"N","N",NULL
+"Chicago White Sox",1986,1424313,1669888,"N","N",NULL
+"Chicago White Sox",1987,1208060,1424313,"N","N",NULL
+"Chicago White Sox",1988,1115749,1208060,"N","N",NULL
+"Chicago White Sox",1989,1045651,1115749,"N","N",NULL
+"Chicago White Sox",1990,2002357,1045651,"N","N",NULL
+"Chicago White Sox",1991,2934154,2002357,"N","N",NULL
+"Chicago White Sox",1992,2681156,2934154,"N","N",NULL
+"Chicago White Sox",1993,2581091,2681156,"N","Y",NULL
+"Chicago White Sox",1995,1609773,2581091,"N","N","N"
+"Chicago White Sox",1996,1676403,1609773,"N","N","N"
+"Chicago White Sox",1997,1864782,1676403,"N","N","N"
+"Chicago White Sox",1998,1391146,1864782,"N","N","N"
+"Chicago White Sox",1999,1338851,1391146,"N","N","N"
+"Chicago White Sox",2000,1947799,1338851,"N","Y","N"
+"Chicago White Sox",2001,1766172,1947799,"N","N","N"
+"Chicago White Sox",2002,1676911,1766172,"N","N","N"
+"Chicago White Sox",2003,1939524,1676911,"N","N","N"
+"Chicago White Sox",2004,1930537,1939524,"N","N","N"
+"Chicago White Sox",2005,2342833,1930537,"Y","Y","N"
+"Chicago White Sox",2006,2957414,2342833,"N","N","N"
+"Chicago White Sox",2007,2684395,2957414,"N","N","N"
+"Chicago White Sox",2008,2500648,2684395,"N","Y","N"
+"Chicago White Sox",2009,2284163,2500648,"N","N","N"
+"Chicago White Sox",2010,2194378,2284163,"N","N","N"
+"Chicago White Sox",2011,2001117,2194378,"N","N","N"
+"Chicago White Sox",2012,1965955,2001117,"N","N","N"
+"Chicago White Sox",2013,1768413,1965955,"N","N","N"
+"Chicago White Sox",2014,1650821,1768413,"N","N","N"
+"Chicago White Sox",2015,1755810,1650821,"N","N","N"
+"Chicago White Sox",2016,1746293,1755810,"N","N","N"
+"Chicago Cubs",1969,1674993,1746293,"N","N",NULL
+"Chicago Cubs",1970,1642705,1674993,"N","N",NULL
+"Chicago Cubs",1971,1653007,1642705,"N","N",NULL
+"Chicago Cubs",1972,1299163,1653007,"N","N",NULL
+"Chicago Cubs",1973,1351705,1299163,"N","N",NULL
+"Chicago Cubs",1974,1015378,1351705,"N","N",NULL
+"Chicago Cubs",1975,1034819,1015378,"N","N",NULL
+"Chicago Cubs",1976,1026217,1034819,"N","N",NULL
+"Chicago Cubs",1977,1439834,1026217,"N","N",NULL
+"Chicago Cubs",1978,1525311,1439834,"N","N",NULL
+"Chicago Cubs",1979,1648587,1525311,"N","N",NULL
+"Chicago Cubs",1980,1206776,1648587,"N","N",NULL
+"Chicago Cubs",1981,565637,1206776,"N","N",NULL
+"Chicago Cubs",1982,1249278,565637,"N","N",NULL
+"Chicago Cubs",1983,1479717,1249278,"N","N",NULL
+"Chicago Cubs",1984,2107655,1479717,"N","Y",NULL
+"Chicago Cubs",1985,2161534,2107655,"N","N",NULL
+"Chicago Cubs",1986,1859102,2161534,"N","N",NULL
+"Chicago Cubs",1987,2035130,1859102,"N","N",NULL
+"Chicago Cubs",1988,2089034,2035130,"N","N",NULL
+"Chicago Cubs",1989,2491942,2089034,"N","Y",NULL
+"Chicago Cubs",1990,2243791,2491942,"N","N",NULL
+"Chicago Cubs",1991,2314250,2243791,"N","N",NULL
+"Chicago Cubs",1992,2126720,2314250,"N","N",NULL
+"Chicago Cubs",1993,2653763,2126720,"N","N",NULL
+"Chicago Cubs",1995,1918265,2653763,"N","N","N"
+"Chicago Cubs",1996,2219110,1918265,"N","N","N"
+"Chicago Cubs",1997,2190308,2219110,"N","N","N"
+"Chicago Cubs",1998,2623194,2190308,"N","N","Y"
+"Chicago Cubs",1999,2813854,2623194,"N","N","N"
+"Chicago Cubs",2000,2789511,2813854,"N","N","N"
+"Chicago Cubs",2001,2779465,2789511,"N","N","N"
+"Chicago Cubs",2002,2693096,2779465,"N","N","N"
+"Chicago Cubs",2003,2962630,2693096,"N","Y","N"
+"Chicago Cubs",2004,3170154,2962630,"N","N","N"
+"Chicago Cubs",2005,3099992,3170154,"N","N","N"
+"Chicago Cubs",2006,3123215,3099992,"N","N","N"
+"Chicago Cubs",2007,3252462,3123215,"N","Y","N"
+"Chicago Cubs",2008,3300200,3252462,"N","Y","N"
+"Chicago Cubs",2009,3168859,3300200,"N","N","N"
+"Chicago Cubs",2010,3062973,3168859,"N","N","N"
+"Chicago Cubs",2011,3017966,3062973,"N","N","N"
+"Chicago Cubs",2012,2882756,3017966,"N","N","N"
+"Chicago Cubs",2013,2642682,2882756,"N","N","N"
+"Chicago Cubs",2014,2652113,2642682,"N","N","N"
+"Chicago Cubs",2015,2919122,2652113,"N","N","Y"
+"Chicago Cubs",2016,3232420,2919122,"Y","Y","N"
+"Cincinnati Reds",1969,987991,3232420,"N","N",NULL
+"Cincinnati Reds",1970,1803568,987991,"N","Y",NULL
+"Cincinnati Reds",1971,1501122,1803568,"N","N",NULL
+"Cincinnati Reds",1972,1611459,1501122,"N","Y",NULL
+"Cincinnati Reds",1973,2017601,1611459,"N","Y",NULL
+"Cincinnati Reds",1974,2164307,2017601,"N","N",NULL
+"Cincinnati Reds",1975,2315603,2164307,"Y","Y",NULL
+"Cincinnati Reds",1976,2629708,2315603,"Y","Y",NULL
+"Cincinnati Reds",1977,2519670,2629708,"N","N",NULL
+"Cincinnati Reds",1978,2532497,2519670,"N","N",NULL
+"Cincinnati Reds",1979,2356933,2532497,"N","Y",NULL
+"Cincinnati Reds",1980,2022450,2356933,"N","N",NULL
+"Cincinnati Reds",1981,1093730,2022450,"N","N",NULL
+"Cincinnati Reds",1982,1326528,1093730,"N","N",NULL
+"Cincinnati Reds",1983,1190419,1326528,"N","N",NULL
+"Cincinnati Reds",1984,1275887,1190419,"N","N",NULL
+"Cincinnati Reds",1985,1834619,1275887,"N","N",NULL
+"Cincinnati Reds",1986,1692432,1834619,"N","N",NULL
+"Cincinnati Reds",1987,2185205,1692432,"N","N",NULL
+"Cincinnati Reds",1988,2072528,2185205,"N","N",NULL
+"Cincinnati Reds",1989,1979320,2072528,"N","N",NULL
+"Cincinnati Reds",1990,2400892,1979320,"Y","Y",NULL
+"Cincinnati Reds",1991,2372377,2400892,"N","N",NULL
+"Cincinnati Reds",1992,2315946,2372377,"N","N",NULL
+"Cincinnati Reds",1993,2453232,2315946,"N","N",NULL
+"Cincinnati Reds",1995,1837649,2453232,"N","Y","N"
+"Cincinnati Reds",1996,1861428,1837649,"N","N","N"
+"Cincinnati Reds",1997,1785788,1861428,"N","N","N"
+"Cincinnati Reds",1998,1793649,1785788,"N","N","N"
+"Cincinnati Reds",1999,2061222,1793649,"N","N","N"
+"Cincinnati Reds",2000,2577371,2061222,"N","N","N"
+"Cincinnati Reds",2001,1879757,2577371,"N","N","N"
+"Cincinnati Reds",2002,1855787,1879757,"N","N","N"
+"Cincinnati Reds",2003,2355259,1855787,"N","N","N"
+"Cincinnati Reds",2004,2287250,2355259,"N","N","N"
+"Cincinnati Reds",2005,1943067,2287250,"N","N","N"
+"Cincinnati Reds",2006,2134607,1943067,"N","N","N"
+"Cincinnati Reds",2007,2058593,2134607,"N","N","N"
+"Cincinnati Reds",2008,2058632,2058593,"N","N","N"
+"Cincinnati Reds",2009,1747919,2058632,"N","N","N"
+"Cincinnati Reds",2010,2060550,1747919,"N","Y","N"
+"Cincinnati Reds",2011,2213588,2060550,"N","N","N"
+"Cincinnati Reds",2012,2347251,2213588,"N","Y","N"
+"Cincinnati Reds",2013,2534369,2347251,"N","N","Y"
+"Cincinnati Reds",2014,2476664,2534369,"N","N","N"
+"Cincinnati Reds",2015,2419506,2476664,"N","N","N"
+"Cincinnati Reds",2016,1894085,2419506,"N","N","N"
+"Cleveland Indians",1969,619970,1894085,"N","N",NULL
+"Cleveland Indians",1970,729752,619970,"N","N",NULL
+"Cleveland Indians",1971,591361,729752,"N","N",NULL
+"Cleveland Indians",1972,626354,591361,"N","N",NULL
+"Cleveland Indians",1973,615107,626354,"N","N",NULL
+"Cleveland Indians",1974,1114262,615107,"N","N",NULL
+"Cleveland Indians",1975,977039,1114262,"N","N",NULL
+"Cleveland Indians",1976,948776,977039,"N","N",NULL
+"Cleveland Indians",1977,900365,948776,"N","N",NULL
+"Cleveland Indians",1978,800584,900365,"N","N",NULL
+"Cleveland Indians",1979,1011644,800584,"N","N",NULL
+"Cleveland Indians",1980,1033827,1011644,"N","N",NULL
+"Cleveland Indians",1981,661395,1033827,"N","N",NULL
+"Cleveland Indians",1982,1044021,661395,"N","N",NULL
+"Cleveland Indians",1983,768941,1044021,"N","N",NULL
+"Cleveland Indians",1984,734079,768941,"N","N",NULL
+"Cleveland Indians",1985,655181,734079,"N","N",NULL
+"Cleveland Indians",1986,1471805,655181,"N","N",NULL
+"Cleveland Indians",1987,1077898,1471805,"N","N",NULL
+"Cleveland Indians",1988,1411610,1077898,"N","N",NULL
+"Cleveland Indians",1989,1285542,1411610,"N","N",NULL
+"Cleveland Indians",1990,1225240,1285542,"N","N",NULL
+"Cleveland Indians",1991,1051863,1225240,"N","N",NULL
+"Cleveland Indians",1992,1224094,1051863,"N","N",NULL
+"Cleveland Indians",1993,2177908,1224094,"N","N",NULL
+"Cleveland Indians",1995,2842745,2177908,"N","Y","N"
+"Cleveland Indians",1996,3318174,2842745,"N","Y","N"
+"Cleveland Indians",1997,3404750,3318174,"N","Y","N"
+"Cleveland Indians",1998,3467299,3404750,"N","Y","N"
+"Cleveland Indians",1999,3468456,3467299,"N","Y","N"
+"Cleveland Indians",2000,3456278,3468456,"N","N","N"
+"Cleveland Indians",2001,3175523,3456278,"N","Y","N"
+"Cleveland Indians",2002,2616940,3175523,"N","N","N"
+"Cleveland Indians",2003,1730002,2616940,"N","N","N"
+"Cleveland Indians",2004,1814401,1730002,"N","N","N"
+"Cleveland Indians",2005,2013763,1814401,"N","N","N"
+"Cleveland Indians",2006,1997995,2013763,"N","N","N"
+"Cleveland Indians",2007,2275912,1997995,"N","Y","N"
+"Cleveland Indians",2008,2169760,2275912,"N","N","N"
+"Cleveland Indians",2009,1766242,2169760,"N","N","N"
+"Cleveland Indians",2010,1394812,1766242,"N","N","N"
+"Cleveland Indians",2011,1840835,1394812,"N","N","N"
+"Cleveland Indians",2012,1603596,1840835,"N","N","N"
+"Cleveland Indians",2013,1572926,1603596,"N","N","Y"
+"Cleveland Indians",2014,1437393,1572926,"N","N","N"
+"Cleveland Indians",2015,1388905,1437393,"N","N","N"
+"Cleveland Indians",2016,1591667,1388905,"N","Y","N"
+"Colorado Rockies",1993,4483350,1591667,"N","N",NULL
+"Colorado Rockies",1995,3390037,4483350,"N","N","Y"
+"Colorado Rockies",1996,3891014,3390037,"N","N","N"
+"Colorado Rockies",1997,3888453,3891014,"N","N","N"
+"Colorado Rockies",1998,3792683,3888453,"N","N","N"
+"Colorado Rockies",1999,3481065,3792683,"N","N","N"
+"Colorado Rockies",2000,3295129,3481065,"N","N","N"
+"Colorado Rockies",2001,3166821,3295129,"N","N","N"
+"Colorado Rockies",2002,2737838,3166821,"N","N","N"
+"Colorado Rockies",2003,2334085,2737838,"N","N","N"
+"Colorado Rockies",2004,2338069,2334085,"N","N","N"
+"Colorado Rockies",2005,1914389,2338069,"N","N","N"
+"Colorado Rockies",2006,2104362,1914389,"N","N","N"
+"Colorado Rockies",2007,2376250,2104362,"N","N","Y"
+"Colorado Rockies",2008,2650218,2376250,"N","N","N"
+"Colorado Rockies",2009,2665080,2650218,"N","N","Y"
+"Colorado Rockies",2010,2875245,2665080,"N","N","N"
+"Colorado Rockies",2011,2909777,2875245,"N","N","N"
+"Colorado Rockies",2012,2630458,2909777,"N","N","N"
+"Colorado Rockies",2013,2793828,2630458,"N","N","N"
+"Colorado Rockies",2014,2680329,2793828,"N","N","N"
+"Colorado Rockies",2015,2506789,2680329,"N","N","N"
+"Colorado Rockies",2016,2602524,2506789,"N","N","N"
+"Detroit Tigers",1969,1577481,2602524,"N","N",NULL
+"Detroit Tigers",1970,1501293,1577481,"N","N",NULL
+"Detroit Tigers",1971,1591073,1501293,"N","N",NULL
+"Detroit Tigers",1972,1892386,1591073,"N","Y",NULL
+"Detroit Tigers",1973,1724146,1892386,"N","N",NULL
+"Detroit Tigers",1974,1243080,1724146,"N","N",NULL
+"Detroit Tigers",1975,1058836,1243080,"N","N",NULL
+"Detroit Tigers",1976,1467020,1058836,"N","N",NULL
+"Detroit Tigers",1977,1359856,1467020,"N","N",NULL
+"Detroit Tigers",1978,1714893,1359856,"N","N",NULL
+"Detroit Tigers",1979,1630929,1714893,"N","N",NULL
+"Detroit Tigers",1980,1785293,1630929,"N","N",NULL
+"Detroit Tigers",1981,1149144,1785293,"N","N",NULL
+"Detroit Tigers",1982,1636058,1149144,"N","N",NULL
+"Detroit Tigers",1983,1829636,1636058,"N","N",NULL
+"Detroit Tigers",1984,2704794,1829636,"Y","Y",NULL
+"Detroit Tigers",1985,2286609,2704794,"N","N",NULL
+"Detroit Tigers",1986,1899437,2286609,"N","N",NULL
+"Detroit Tigers",1987,2061830,1899437,"N","Y",NULL
+"Detroit Tigers",1988,2081162,2061830,"N","N",NULL
+"Detroit Tigers",1989,1543656,2081162,"N","N",NULL
+"Detroit Tigers",1990,1495785,1543656,"N","N",NULL
+"Detroit Tigers",1991,1641661,1495785,"N","N",NULL
+"Detroit Tigers",1992,1423963,1641661,"N","N",NULL
+"Detroit Tigers",1993,1971421,1423963,"N","N",NULL
+"Detroit Tigers",1995,1180979,1971421,"N","N","N"
+"Detroit Tigers",1996,1168610,1180979,"N","N","N"
+"Detroit Tigers",1997,1365157,1168610,"N","N","N"
+"Detroit Tigers",1998,1409391,1365157,"N","N","N"
+"Detroit Tigers",1999,2026441,1409391,"N","N","N"
+"Detroit Tigers",2000,2438617,2026441,"N","N","N"
+"Detroit Tigers",2001,1921305,2438617,"N","N","N"
+"Detroit Tigers",2002,1503623,1921305,"N","N","N"
+"Detroit Tigers",2003,1368245,1503623,"N","N","N"
+"Detroit Tigers",2004,1917004,1368245,"N","N","N"
+"Detroit Tigers",2005,2024431,1917004,"N","N","N"
+"Detroit Tigers",2006,2595937,2024431,"N","N","Y"
+"Detroit Tigers",2007,3047133,2595937,"N","N","N"
+"Detroit Tigers",2008,3202645,3047133,"N","N","N"
+"Detroit Tigers",2009,2567165,3202645,"N","N","N"
+"Detroit Tigers",2010,2461237,2567165,"N","N","N"
+"Detroit Tigers",2011,2642045,2461237,"N","Y","N"
+"Detroit Tigers",2012,3028033,2642045,"N","Y","N"
+"Detroit Tigers",2013,3083397,3028033,"N","Y","N"
+"Detroit Tigers",2014,2917209,3083397,"N","Y","N"
+"Detroit Tigers",2015,2726048,2917209,"N","N","N"
+"Detroit Tigers",2016,2493859,2726048,"N","N","N"
+"Florida Marlins",1993,3064847,2493859,"N","N",NULL
+"Florida Marlins",1995,1700466,3064847,"N","N","N"
+"Florida Marlins",1996,1746767,1700466,"N","N","N"
+"Florida Marlins",1997,2364387,1746767,"Y","N","Y"
+"Florida Marlins",1998,1730384,2364387,"N","N","N"
+"Florida Marlins",1999,1369421,1730384,"N","N","N"
+"Florida Marlins",2000,1218326,1369421,"N","N","N"
+"Florida Marlins",2001,1261226,1218326,"N","N","N"
+"Florida Marlins",2002,813118,1261226,"N","N","N"
+"Florida Marlins",2003,1303215,813118,"Y","N","Y"
+"Florida Marlins",2004,1723105,1303215,"N","N","N"
+"Florida Marlins",2005,1852608,1723105,"N","N","N"
+"Florida Marlins",2006,1164134,1852608,"N","N","N"
+"Florida Marlins",2007,1370511,1164134,"N","N","N"
+"Florida Marlins",2008,1335076,1370511,"N","N","N"
+"Florida Marlins",2009,1464109,1335076,"N","N","N"
+"Florida Marlins",2010,1535226,1464109,"N","N","N"
+"Florida Marlins",2011,1477462,1535226,"N","N","N"
+"Houston Astros",1969,1442995,1477462,"N","N",NULL
+"Houston Astros",1970,1253444,1442995,"N","N",NULL
+"Houston Astros",1971,1261589,1253444,"N","N",NULL
+"Houston Astros",1972,1469247,1261589,"N","N",NULL
+"Houston Astros",1973,1394004,1469247,"N","N",NULL
+"Houston Astros",1974,1090728,1394004,"N","N",NULL
+"Houston Astros",1975,858002,1090728,"N","N",NULL
+"Houston Astros",1976,886146,858002,"N","N",NULL
+"Houston Astros",1977,1109560,886146,"N","N",NULL
+"Houston Astros",1978,1126145,1109560,"N","N",NULL
+"Houston Astros",1979,1900312,1126145,"N","N",NULL
+"Houston Astros",1980,2278217,1900312,"N","Y",NULL
+"Houston Astros",1981,1321282,2278217,"N","Y",NULL
+"Houston Astros",1982,1558555,1321282,"N","N",NULL
+"Houston Astros",1983,1351962,1558555,"N","N",NULL
+"Houston Astros",1984,1229862,1351962,"N","N",NULL
+"Houston Astros",1985,1184314,1229862,"N","N",NULL
+"Houston Astros",1986,1734276,1184314,"N","Y",NULL
+"Houston Astros",1987,1909902,1734276,"N","N",NULL
+"Houston Astros",1988,1933505,1909902,"N","N",NULL
+"Houston Astros",1989,1834908,1933505,"N","N",NULL
+"Houston Astros",1990,1310927,1834908,"N","N",NULL
+"Houston Astros",1991,1196152,1310927,"N","N",NULL
+"Houston Astros",1992,1211412,1196152,"N","N",NULL
+"Houston Astros",1993,2084618,1211412,"N","N",NULL
+"Houston Astros",1995,1363801,2084618,"N","N","N"
+"Houston Astros",1996,1975888,1363801,"N","N","N"
+"Houston Astros",1997,2046781,1975888,"N","Y","N"
+"Houston Astros",1998,2458451,2046781,"N","Y","N"
+"Houston Astros",1999,2706017,2458451,"N","Y","N"
+"Houston Astros",2000,3056139,2706017,"N","N","N"
+"Houston Astros",2001,2904277,3056139,"N","Y","N"
+"Houston Astros",2002,2517357,2904277,"N","N","N"
+"Houston Astros",2003,2454241,2517357,"N","N","N"
+"Houston Astros",2004,3087872,2454241,"N","N","Y"
+"Houston Astros",2005,2804760,3087872,"N","N","Y"
+"Houston Astros",2006,3022763,2804760,"N","N","N"
+"Houston Astros",2007,3020405,3022763,"N","N","N"
+"Houston Astros",2008,2779487,3020405,"N","N","N"
+"Houston Astros",2009,2521076,2779487,"N","N","N"
+"Houston Astros",2010,2331490,2521076,"N","N","N"
+"Houston Astros",2011,2067016,2331490,"N","N","N"
+"Houston Astros",2012,1607733,2067016,"N","N","N"
+"Houston Astros",2013,1651883,1607733,"N","N","N"
+"Houston Astros",2014,1751829,1651883,"N","N","N"
+"Houston Astros",2015,2153585,1751829,"N","N","Y"
+"Houston Astros",2016,2306623,2153585,"N","N","N"
+"Kansas City Royals",1969,902414,2306623,"N","N",NULL
+"Kansas City Royals",1970,693047,902414,"N","N",NULL
+"Kansas City Royals",1971,910784,693047,"N","N",NULL
+"Kansas City Royals",1972,707656,910784,"N","N",NULL
+"Kansas City Royals",1973,1345341,707656,"N","N",NULL
+"Kansas City Royals",1974,1173292,1345341,"N","N",NULL
+"Kansas City Royals",1975,1151836,1173292,"N","N",NULL
+"Kansas City Royals",1976,1680265,1151836,"N","Y",NULL
+"Kansas City Royals",1977,1852603,1680265,"N","Y",NULL
+"Kansas City Royals",1978,2255493,1852603,"N","Y",NULL
+"Kansas City Royals",1979,2261845,2255493,"N","N",NULL
+"Kansas City Royals",1980,2288714,2261845,"N","Y",NULL
+"Kansas City Royals",1981,1279403,2288714,"N","Y",NULL
+"Kansas City Royals",1982,2284464,1279403,"N","N",NULL
+"Kansas City Royals",1983,1963875,2284464,"N","N",NULL
+"Kansas City Royals",1984,1810018,1963875,"N","Y",NULL
+"Kansas City Royals",1985,2162717,1810018,"Y","Y",NULL
+"Kansas City Royals",1986,2320794,2162717,"N","N",NULL
+"Kansas City Royals",1987,2392471,2320794,"N","N",NULL
+"Kansas City Royals",1988,2350181,2392471,"N","N",NULL
+"Kansas City Royals",1989,2477700,2350181,"N","N",NULL
+"Kansas City Royals",1990,2244956,2477700,"N","N",NULL
+"Kansas City Royals",1991,2161537,2244956,"N","N",NULL
+"Kansas City Royals",1992,1867689,2161537,"N","N",NULL
+"Kansas City Royals",1993,1934578,1867689,"N","N",NULL
+"Kansas City Royals",1995,1233530,1934578,"N","N","N"
+"Kansas City Royals",1996,1435997,1233530,"N","N","N"
+"Kansas City Royals",1997,1517638,1435997,"N","N","N"
+"Kansas City Royals",1998,1494875,1517638,"N","N","N"
+"Kansas City Royals",1999,1506068,1494875,"N","N","N"
+"Kansas City Royals",2000,1564847,1506068,"N","N","N"
+"Kansas City Royals",2001,1536371,1564847,"N","N","N"
+"Kansas City Royals",2002,1323036,1536371,"N","N","N"
+"Kansas City Royals",2003,1779895,1323036,"N","N","N"
+"Kansas City Royals",2004,1661478,1779895,"N","N","N"
+"Kansas City Royals",2005,1371181,1661478,"N","N","N"
+"Kansas City Royals",2006,1372638,1371181,"N","N","N"
+"Kansas City Royals",2007,1616867,1372638,"N","N","N"
+"Kansas City Royals",2008,1578922,1616867,"N","N","N"
+"Kansas City Royals",2009,1797891,1578922,"N","N","N"
+"Kansas City Royals",2010,1615324,1797891,"N","N","N"
+"Kansas City Royals",2011,1724450,1615324,"N","N","N"
+"Kansas City Royals",2012,1739859,1724450,"N","N","N"
+"Kansas City Royals",2013,1750754,1739859,"N","N","N"
+"Kansas City Royals",2014,1956482,1750754,"N","N","Y"
+"Kansas City Royals",2015,2708549,1956482,"Y","Y","N"
+"Kansas City Royals",2016,2557712,2708549,"N","N","N"
+"Los Angeles Angels of Anaheim",2005,3404686,2557712,"N","Y","N"
+"Los Angeles Angels of Anaheim",2006,3406790,3404686,"N","N","N"
+"Los Angeles Angels of Anaheim",2007,3365632,3406790,"N","Y","N"
+"Los Angeles Angels of Anaheim",2008,3336747,3365632,"N","Y","N"
+"Los Angeles Angels of Anaheim",2009,3240386,3336747,"N","Y","N"
+"Los Angeles Angels of Anaheim",2010,3250816,3240386,"N","N","N"
+"Los Angeles Angels of Anaheim",2011,3166321,3250816,"N","N","N"
+"Los Angeles Angels of Anaheim",2012,3061770,3166321,"N","N","N"
+"Los Angeles Angels of Anaheim",2013,3019505,3061770,"N","N","N"
+"Los Angeles Angels of Anaheim",2014,3095935,3019505,"N","Y","N"
+"Los Angeles Angels of Anaheim",2015,3012765,3095935,"N","N","N"
+"Los Angeles Angels of Anaheim",2016,3016142,3012765,"N","N","N"
+"Los Angeles Dodgers",1969,1784527,3016142,"N","N",NULL
+"Los Angeles Dodgers",1970,1697142,1784527,"N","N",NULL
+"Los Angeles Dodgers",1971,2064594,1697142,"N","N",NULL
+"Los Angeles Dodgers",1972,1860858,2064594,"N","N",NULL
+"Los Angeles Dodgers",1973,2136192,1860858,"N","N",NULL
+"Los Angeles Dodgers",1974,2632474,2136192,"N","Y",NULL
+"Los Angeles Dodgers",1975,2539349,2632474,"N","N",NULL
+"Los Angeles Dodgers",1976,2386301,2539349,"N","N",NULL
+"Los Angeles Dodgers",1977,2955087,2386301,"N","Y",NULL
+"Los Angeles Dodgers",1978,3347845,2955087,"N","Y",NULL
+"Los Angeles Dodgers",1979,2860954,3347845,"N","N",NULL
+"Los Angeles Dodgers",1980,3249287,2860954,"N","N",NULL
+"Los Angeles Dodgers",1981,2381292,3249287,"Y","Y",NULL
+"Los Angeles Dodgers",1982,3608881,2381292,"N","N",NULL
+"Los Angeles Dodgers",1983,3510313,3608881,"N","Y",NULL
+"Los Angeles Dodgers",1984,3134824,3510313,"N","N",NULL
+"Los Angeles Dodgers",1985,3264593,3134824,"N","Y",NULL
+"Los Angeles Dodgers",1986,3023208,3264593,"N","N",NULL
+"Los Angeles Dodgers",1987,2797409,3023208,"N","N",NULL
+"Los Angeles Dodgers",1988,2980262,2797409,"Y","Y",NULL
+"Los Angeles Dodgers",1989,2944653,2980262,"N","N",NULL
+"Los Angeles Dodgers",1990,3002396,2944653,"N","N",NULL
+"Los Angeles Dodgers",1991,3348170,3002396,"N","N",NULL
+"Los Angeles Dodgers",1992,2473266,3348170,"N","N",NULL
+"Los Angeles Dodgers",1993,3170393,2473266,"N","N",NULL
+"Los Angeles Dodgers",1995,2766251,3170393,"N","Y","N"
+"Los Angeles Dodgers",1996,3188454,2766251,"N","N","Y"
+"Los Angeles Dodgers",1997,3319504,3188454,"N","N","N"
+"Los Angeles Dodgers",1998,3089222,3319504,"N","N","N"
+"Los Angeles Dodgers",1999,3095346,3089222,"N","N","N"
+"Los Angeles Dodgers",2000,2880242,3095346,"N","N","N"
+"Los Angeles Dodgers",2001,3017143,2880242,"N","N","N"
+"Los Angeles Dodgers",2002,3131255,3017143,"N","N","N"
+"Los Angeles Dodgers",2003,3138626,3131255,"N","N","N"
+"Los Angeles Dodgers",2004,3488283,3138626,"N","Y","N"
+"Los Angeles Dodgers",2005,3603646,3488283,"N","N","N"
+"Los Angeles Dodgers",2006,3758545,3603646,"N","N","Y"
+"Los Angeles Dodgers",2007,3857036,3758545,"N","N","N"
+"Los Angeles Dodgers",2008,3730553,3857036,"N","Y","N"
+"Los Angeles Dodgers",2009,3761655,3730553,"N","Y","N"
+"Los Angeles Dodgers",2010,3562320,3761655,"N","N","N"
+"Los Angeles Dodgers",2011,2935139,3562320,"N","N","N"
+"Los Angeles Dodgers",2012,3324246,2935139,"N","N","N"
+"Los Angeles Dodgers",2013,3743527,3324246,"N","Y","N"
+"Los Angeles Dodgers",2014,3782337,3743527,"N","Y","N"
+"Los Angeles Dodgers",2015,3764815,3782337,"N","Y","N"
+"Los Angeles Dodgers",2016,3703312,3764815,"N","Y","N"
+"Miami Marlins",2012,2219444,3703312,"N","N","N"
+"Miami Marlins",2013,1586322,2219444,"N","N","N"
+"Miami Marlins",2014,1732283,1586322,"N","N","N"
+"Miami Marlins",2015,1752235,1732283,"N","N","N"
+"Miami Marlins",2016,1712417,1752235,"N","N","N"
+"Milwaukee Brewers",1998,1811593,1712417,"N","N","N"
+"Milwaukee Brewers",1999,1701796,1811593,"N","N","N"
+"Milwaukee Brewers",2000,1573621,1701796,"N","N","N"
+"Milwaukee Brewers",2001,2811041,1573621,"N","N","N"
+"Milwaukee Brewers",2002,1969153,2811041,"N","N","N"
+"Milwaukee Brewers",2003,1700354,1969153,"N","N","N"
+"Milwaukee Brewers",2004,2062382,1700354,"N","N","N"
+"Milwaukee Brewers",2005,2211023,2062382,"N","N","N"
+"Milwaukee Brewers",2006,2335643,2211023,"N","N","N"
+"Milwaukee Brewers",2007,2869144,2335643,"N","N","N"
+"Milwaukee Brewers",2008,3068458,2869144,"N","N","Y"
+"Milwaukee Brewers",2009,3037451,3068458,"N","N","N"
+"Milwaukee Brewers",2010,2776531,3037451,"N","N","N"
+"Milwaukee Brewers",2011,3071373,2776531,"N","Y","N"
+"Milwaukee Brewers",2012,2831385,3071373,"N","N","N"
+"Milwaukee Brewers",2013,2531105,2831385,"N","N","N"
+"Milwaukee Brewers",2014,2797384,2531105,"N","N","N"
+"Milwaukee Brewers",2015,2542558,2797384,"N","N","N"
+"Milwaukee Brewers",2016,2314614,2542558,"N","N","N"
+"Minnesota Twins",1969,1349328,2314614,"N","Y",NULL
+"Minnesota Twins",1970,1261887,1349328,"N","Y",NULL
+"Minnesota Twins",1971,940858,1261887,"N","N",NULL
+"Minnesota Twins",1972,797901,940858,"N","N",NULL
+"Minnesota Twins",1973,907499,797901,"N","N",NULL
+"Minnesota Twins",1974,662401,907499,"N","N",NULL
+"Minnesota Twins",1975,737156,662401,"N","N",NULL
+"Minnesota Twins",1976,715394,737156,"N","N",NULL
+"Minnesota Twins",1977,1162727,715394,"N","N",NULL
+"Minnesota Twins",1978,787878,1162727,"N","N",NULL
+"Minnesota Twins",1979,1070521,787878,"N","N",NULL
+"Minnesota Twins",1980,769206,1070521,"N","N",NULL
+"Minnesota Twins",1981,469090,769206,"N","N",NULL
+"Minnesota Twins",1982,921186,469090,"N","N",NULL
+"Minnesota Twins",1983,858939,921186,"N","N",NULL
+"Minnesota Twins",1984,1598692,858939,"N","N",NULL
+"Minnesota Twins",1985,1651814,1598692,"N","N",NULL
+"Minnesota Twins",1986,1255453,1651814,"N","N",NULL
+"Minnesota Twins",1987,2081976,1255453,"Y","Y",NULL
+"Minnesota Twins",1988,3030672,2081976,"N","N",NULL
+"Minnesota Twins",1989,2277438,3030672,"N","N",NULL
+"Minnesota Twins",1990,1751584,2277438,"N","N",NULL
+"Minnesota Twins",1991,2293842,1751584,"Y","Y",NULL
+"Minnesota Twins",1992,2482428,2293842,"N","N",NULL
+"Minnesota Twins",1993,2048673,2482428,"N","N",NULL
+"Minnesota Twins",1995,1057667,2048673,"N","N","N"
+"Minnesota Twins",1996,1437352,1057667,"N","N","N"
+"Minnesota Twins",1997,1411064,1437352,"N","N","N"
+"Minnesota Twins",1998,1165976,1411064,"N","N","N"
+"Minnesota Twins",1999,1202829,1165976,"N","N","N"
+"Minnesota Twins",2000,1000760,1202829,"N","N","N"
+"Minnesota Twins",2001,1782929,1000760,"N","N","N"
+"Minnesota Twins",2002,1924473,1782929,"N","Y","N"
+"Minnesota Twins",2003,1946011,1924473,"N","Y","N"
+"Minnesota Twins",2004,1911490,1946011,"N","Y","N"
+"Minnesota Twins",2005,2034243,1911490,"N","N","N"
+"Minnesota Twins",2006,2285018,2034243,"N","Y","N"
+"Minnesota Twins",2007,2296383,2285018,"N","N","N"
+"Minnesota Twins",2008,2302431,2296383,"N","N","N"
+"Minnesota Twins",2009,2416237,2302431,"N","Y","N"
+"Minnesota Twins",2010,3223640,2416237,"N","Y","N"
+"Minnesota Twins",2011,3168116,3223640,"N","N","N"
+"Minnesota Twins",2012,2776354,3168116,"N","N","N"
+"Minnesota Twins",2013,2477644,2776354,"N","N","N"
+"Minnesota Twins",2014,2250606,2477644,"N","N","N"
+"Minnesota Twins",2015,2220054,2250606,"N","N","N"
+"Minnesota Twins",2016,1963912,2220054,"N","N","N"
+"Milwaukee Brewers",1970,933690,1963912,"N","N",NULL
+"Milwaukee Brewers",1971,731531,933690,"N","N",NULL
+"Milwaukee Brewers",1972,600440,731531,"N","N",NULL
+"Milwaukee Brewers",1973,1092158,600440,"N","N",NULL
+"Milwaukee Brewers",1974,955741,1092158,"N","N",NULL
+"Milwaukee Brewers",1975,1213357,955741,"N","N",NULL
+"Milwaukee Brewers",1976,1012164,1213357,"N","N",NULL
+"Milwaukee Brewers",1977,1114938,1012164,"N","N",NULL
+"Milwaukee Brewers",1978,1601406,1114938,"N","N",NULL
+"Milwaukee Brewers",1979,1918343,1601406,"N","N",NULL
+"Milwaukee Brewers",1980,1857408,1918343,"N","N",NULL
+"Milwaukee Brewers",1981,874292,1857408,"N","Y",NULL
+"Milwaukee Brewers",1982,1978896,874292,"N","Y",NULL
+"Milwaukee Brewers",1983,2397131,1978896,"N","N",NULL
+"Milwaukee Brewers",1984,1608509,2397131,"N","N",NULL
+"Milwaukee Brewers",1985,1360265,1608509,"N","N",NULL
+"Milwaukee Brewers",1986,1265041,1360265,"N","N",NULL
+"Milwaukee Brewers",1987,1909244,1265041,"N","N",NULL
+"Milwaukee Brewers",1988,1923238,1909244,"N","N",NULL
+"Milwaukee Brewers",1989,1970735,1923238,"N","N",NULL
+"Milwaukee Brewers",1990,1752900,1970735,"N","N",NULL
+"Milwaukee Brewers",1991,1478729,1752900,"N","N",NULL
+"Milwaukee Brewers",1992,1857351,1478729,"N","N",NULL
+"Milwaukee Brewers",1993,1688080,1857351,"N","N",NULL
+"Milwaukee Brewers",1995,1087560,1688080,"N","N","N"
+"Milwaukee Brewers",1996,1327155,1087560,"N","N","N"
+"Milwaukee Brewers",1997,1444027,1327155,"N","N","N"
+"Montreal Expos",1969,1212608,1444027,"N","N",NULL
+"Montreal Expos",1970,1424683,1212608,"N","N",NULL
+"Montreal Expos",1971,1290963,1424683,"N","N",NULL
+"Montreal Expos",1972,1142145,1290963,"N","N",NULL
+"Montreal Expos",1973,1246863,1142145,"N","N",NULL
+"Montreal Expos",1974,1019134,1246863,"N","N",NULL
+"Montreal Expos",1975,908292,1019134,"N","N",NULL
+"Montreal Expos",1976,646704,908292,"N","N",NULL
+"Montreal Expos",1977,1433757,646704,"N","N",NULL
+"Montreal Expos",1978,1427007,1433757,"N","N",NULL
+"Montreal Expos",1979,2102173,1427007,"N","N",NULL
+"Montreal Expos",1980,2208175,2102173,"N","N",NULL
+"Montreal Expos",1981,1534564,2208175,"N","Y",NULL
+"Montreal Expos",1982,2318292,1534564,"N","N",NULL
+"Montreal Expos",1983,2320651,2318292,"N","N",NULL
+"Montreal Expos",1984,1606531,2320651,"N","N",NULL
+"Montreal Expos",1985,1502494,1606531,"N","N",NULL
+"Montreal Expos",1986,1128981,1502494,"N","N",NULL
+"Montreal Expos",1987,1850324,1128981,"N","N",NULL
+"Montreal Expos",1988,1478659,1850324,"N","N",NULL
+"Montreal Expos",1989,1783533,1478659,"N","N",NULL
+"Montreal Expos",1990,1373087,1783533,"N","N",NULL
+"Montreal Expos",1991,934742,1373087,"N","N",NULL
+"Montreal Expos",1992,1669127,934742,"N","N",NULL
+"Montreal Expos",1993,1641437,1669127,"N","N",NULL
+"Montreal Expos",1995,1309618,1641437,"N","N","N"
+"Montreal Expos",1996,1616709,1309618,"N","N","N"
+"Montreal Expos",1997,1497609,1616709,"N","N","N"
+"Montreal Expos",1998,914909,1497609,"N","N","N"
+"Montreal Expos",1999,773277,914909,"N","N","N"
+"Montreal Expos",2000,926272,773277,"N","N","N"
+"Montreal Expos",2001,642745,926272,"N","N","N"
+"Montreal Expos",2002,812045,642745,"N","N","N"
+"Montreal Expos",2003,1025639,812045,"N","N","N"
+"Montreal Expos",2004,749550,1025639,"N","N","N"
+"New York Yankees",1969,1067996,749550,"N","N",NULL
+"New York Yankees",1970,1136879,1067996,"N","N",NULL
+"New York Yankees",1971,1070771,1136879,"N","N",NULL
+"New York Yankees",1972,966328,1070771,"N","N",NULL
+"New York Yankees",1973,1262103,966328,"N","N",NULL
+"New York Yankees",1974,1273075,1262103,"N","N",NULL
+"New York Yankees",1975,1288048,1273075,"N","N",NULL
+"New York Yankees",1976,2012434,1288048,"N","Y",NULL
+"New York Yankees",1977,2103092,2012434,"Y","Y",NULL
+"New York Yankees",1978,2335871,2103092,"Y","Y",NULL
+"New York Yankees",1979,2537765,2335871,"N","N",NULL
+"New York Yankees",1980,2627417,2537765,"N","Y",NULL
+"New York Yankees",1981,1614353,2627417,"N","Y",NULL
+"New York Yankees",1982,2041219,1614353,"N","N",NULL
+"New York Yankees",1983,2257976,2041219,"N","N",NULL
+"New York Yankees",1984,1821815,2257976,"N","N",NULL
+"New York Yankees",1985,2214587,1821815,"N","N",NULL
+"New York Yankees",1986,2268030,2214587,"N","N",NULL
+"New York Yankees",1987,2427672,2268030,"N","N",NULL
+"New York Yankees",1988,2633701,2427672,"N","N",NULL
+"New York Yankees",1989,2170485,2633701,"N","N",NULL
+"New York Yankees",1990,2006436,2170485,"N","N",NULL
+"New York Yankees",1991,1863733,2006436,"N","N",NULL
+"New York Yankees",1992,1748737,1863733,"N","N",NULL
+"New York Yankees",1993,2416942,1748737,"N","N",NULL
+"New York Yankees",1995,1705263,2416942,"N","N","Y"
+"New York Yankees",1996,2250877,1705263,"Y","Y","N"
+"New York Yankees",1997,2580325,2250877,"N","N","Y"
+"New York Yankees",1998,2955193,2580325,"Y","Y","N"
+"New York Yankees",1999,3292736,2955193,"Y","Y","N"
+"New York Yankees",2000,3055435,3292736,"Y","Y","N"
+"New York Yankees",2001,3264907,3055435,"N","Y","N"
+"New York Yankees",2002,3465807,3264907,"N","Y","N"
+"New York Yankees",2003,3465600,3465807,"N","Y","N"
+"New York Yankees",2004,3775292,3465600,"N","Y","N"
+"New York Yankees",2005,4090696,3775292,"N","Y","N"
+"New York Yankees",2006,4248067,4090696,"N","Y","N"
+"New York Yankees",2007,4271083,4248067,"N","N","Y"
+"New York Yankees",2008,4298655,4271083,"N","N","N"
+"New York Yankees",2009,3719358,4298655,"Y","Y","N"
+"New York Yankees",2010,3765807,3719358,"N","N","Y"
+"New York Yankees",2011,3653680,3765807,"N","Y","N"
+"New York Yankees",2012,3542406,3653680,"N","Y","N"
+"New York Yankees",2013,3279589,3542406,"N","N","N"
+"New York Yankees",2014,3401624,3279589,"N","N","N"
+"New York Yankees",2015,3193795,3401624,"N","N","Y"
+"New York Yankees",2016,3063405,3193795,"N","N","N"
+"New York Mets",1969,2175373,3063405,"Y","Y",NULL
+"New York Mets",1970,2697479,2175373,"N","N",NULL
+"New York Mets",1971,2266680,2697479,"N","N",NULL
+"New York Mets",1972,2134185,2266680,"N","N",NULL
+"New York Mets",1973,1912390,2134185,"N","Y",NULL
+"New York Mets",1974,1722209,1912390,"N","N",NULL
+"New York Mets",1975,1730566,1722209,"N","N",NULL
+"New York Mets",1976,1468754,1730566,"N","N",NULL
+"New York Mets",1977,1066825,1468754,"N","N",NULL
+"New York Mets",1978,1007328,1066825,"N","N",NULL
+"New York Mets",1979,788905,1007328,"N","N",NULL
+"New York Mets",1980,1192073,788905,"N","N",NULL
+"New York Mets",1981,704244,1192073,"N","N",NULL
+"New York Mets",1982,1323036,704244,"N","N",NULL
+"New York Mets",1983,1112774,1323036,"N","N",NULL
+"New York Mets",1984,1842695,1112774,"N","N",NULL
+"New York Mets",1985,2761601,1842695,"N","N",NULL
+"New York Mets",1986,2767601,2761601,"Y","Y",NULL
+"New York Mets",1987,3034129,2767601,"N","N",NULL
+"New York Mets",1988,3055445,3034129,"N","Y",NULL
+"New York Mets",1989,2918710,3055445,"N","N",NULL
+"New York Mets",1990,2732745,2918710,"N","N",NULL
+"New York Mets",1991,2284484,2732745,"N","N",NULL
+"New York Mets",1992,1779534,2284484,"N","N",NULL
+"New York Mets",1993,1873183,1779534,"N","N",NULL
+"New York Mets",1995,1273183,1873183,"N","N","N"
+"New York Mets",1996,1588323,1273183,"N","N","N"
+"New York Mets",1997,1766174,1588323,"N","N","N"
+"New York Mets",1998,2287948,1766174,"N","N","N"
+"New York Mets",1999,2725668,2287948,"N","N","Y"
+"New York Mets",2000,2820530,2725668,"N","N","Y"
+"New York Mets",2001,2658330,2820530,"N","N","N"
+"New York Mets",2002,2804838,2658330,"N","N","N"
+"New York Mets",2003,2140599,2804838,"N","N","N"
+"New York Mets",2004,2318951,2140599,"N","N","N"
+"New York Mets",2005,2829929,2318951,"N","N","N"
+"New York Mets",2006,3379535,2829929,"N","Y","N"
+"New York Mets",2007,3853955,3379535,"N","N","N"
+"New York Mets",2008,4042045,3853955,"N","N","N"
+"New York Mets",2009,3168571,4042045,"N","N","N"
+"New York Mets",2010,2559738,3168571,"N","N","N"
+"New York Mets",2011,2352596,2559738,"N","N","N"
+"New York Mets",2012,2242803,2352596,"N","N","N"
+"New York Mets",2013,2135657,2242803,"N","N","N"
+"New York Mets",2014,2148808,2135657,"N","N","N"
+"New York Mets",2015,2569753,2148808,"N","Y","N"
+"New York Mets",2016,2789602,2569753,"N","N","Y"
+"Oakland Athletics",1969,778232,2789602,"N","N",NULL
+"Oakland Athletics",1970,778355,778232,"N","N",NULL
+"Oakland Athletics",1971,914993,778355,"N","Y",NULL
+"Oakland Athletics",1972,921323,914993,"Y","Y",NULL
+"Oakland Athletics",1973,1000763,921323,"Y","Y",NULL
+"Oakland Athletics",1974,845693,1000763,"Y","Y",NULL
+"Oakland Athletics",1975,1075518,845693,"N","Y",NULL
+"Oakland Athletics",1976,780593,1075518,"N","N",NULL
+"Oakland Athletics",1977,495599,780593,"N","N",NULL
+"Oakland Athletics",1978,526999,495599,"N","N",NULL
+"Oakland Athletics",1979,306763,526999,"N","N",NULL
+"Oakland Athletics",1980,842259,306763,"N","N",NULL
+"Oakland Athletics",1981,1304052,842259,"N","Y",NULL
+"Oakland Athletics",1982,1735489,1304052,"N","N",NULL
+"Oakland Athletics",1983,1294941,1735489,"N","N",NULL
+"Oakland Athletics",1984,1353281,1294941,"N","N",NULL
+"Oakland Athletics",1985,1334599,1353281,"N","N",NULL
+"Oakland Athletics",1986,1314646,1334599,"N","N",NULL
+"Oakland Athletics",1987,1678921,1314646,"N","N",NULL
+"Oakland Athletics",1988,2287335,1678921,"N","Y",NULL
+"Oakland Athletics",1989,2667225,2287335,"Y","Y",NULL
+"Oakland Athletics",1990,2900217,2667225,"N","Y",NULL
+"Oakland Athletics",1991,2713493,2900217,"N","N",NULL
+"Oakland Athletics",1992,2494160,2713493,"N","Y",NULL
+"Oakland Athletics",1993,2035025,2494160,"N","N",NULL
+"Oakland Athletics",1995,1174310,2035025,"N","N","N"
+"Oakland Athletics",1996,1148380,1174310,"N","N","N"
+"Oakland Athletics",1997,1264218,1148380,"N","N","N"
+"Oakland Athletics",1998,1232343,1264218,"N","N","N"
+"Oakland Athletics",1999,1434610,1232343,"N","N","N"
+"Oakland Athletics",2000,1603744,1434610,"N","Y","N"
+"Oakland Athletics",2001,2133277,1603744,"N","N","Y"
+"Oakland Athletics",2002,2169811,2133277,"N","Y","N"
+"Oakland Athletics",2003,2216596,2169811,"N","Y","N"
+"Oakland Athletics",2004,2201516,2216596,"N","N","N"
+"Oakland Athletics",2005,2109118,2201516,"N","N","N"
+"Oakland Athletics",2006,1976625,2109118,"N","Y","N"
+"Oakland Athletics",2007,1921844,1976625,"N","N","N"
+"Oakland Athletics",2008,1665256,1921844,"N","N","N"
+"Oakland Athletics",2009,1408783,1665256,"N","N","N"
+"Oakland Athletics",2010,1418391,1408783,"N","N","N"
+"Oakland Athletics",2011,1476791,1418391,"N","N","N"
+"Oakland Athletics",2012,1679013,1476791,"N","Y","N"
+"Oakland Athletics",2013,1809302,1679013,"N","Y","N"
+"Oakland Athletics",2014,2003628,1809302,"N","N","Y"
+"Oakland Athletics",2015,1768175,2003628,"N","N","N"
+"Oakland Athletics",2016,1521506,1768175,"N","N","N"
+"Philadelphia Phillies",1969,519414,1521506,"N","N",NULL
+"Philadelphia Phillies",1970,708247,519414,"N","N",NULL
+"Philadelphia Phillies",1971,1511223,708247,"N","N",NULL
+"Philadelphia Phillies",1972,1343329,1511223,"N","N",NULL
+"Philadelphia Phillies",1973,1475934,1343329,"N","N",NULL
+"Philadelphia Phillies",1974,1808648,1475934,"N","N",NULL
+"Philadelphia Phillies",1975,1909233,1808648,"N","N",NULL
+"Philadelphia Phillies",1976,2480150,1909233,"N","Y",NULL
+"Philadelphia Phillies",1977,2700070,2480150,"N","Y",NULL
+"Philadelphia Phillies",1978,2583389,2700070,"N","Y",NULL
+"Philadelphia Phillies",1979,2775011,2583389,"N","N",NULL
+"Philadelphia Phillies",1980,2651650,2775011,"Y","Y",NULL
+"Philadelphia Phillies",1981,1638752,2651650,"N","Y",NULL
+"Philadelphia Phillies",1982,2376394,1638752,"N","N",NULL
+"Philadelphia Phillies",1983,2128339,2376394,"N","Y",NULL
+"Philadelphia Phillies",1984,2062693,2128339,"N","N",NULL
+"Philadelphia Phillies",1985,1830350,2062693,"N","N",NULL
+"Philadelphia Phillies",1986,1933335,1830350,"N","N",NULL
+"Philadelphia Phillies",1987,2100110,1933335,"N","N",NULL
+"Philadelphia Phillies",1988,1990041,2100110,"N","N",NULL
+"Philadelphia Phillies",1989,1861985,1990041,"N","N",NULL
+"Philadelphia Phillies",1990,1992484,1861985,"N","N",NULL
+"Philadelphia Phillies",1991,2050012,1992484,"N","N",NULL
+"Philadelphia Phillies",1992,1927448,2050012,"N","N",NULL
+"Philadelphia Phillies",1993,3137674,1927448,"N","Y",NULL
+"Philadelphia Phillies",1995,2043598,3137674,"N","N","N"
+"Philadelphia Phillies",1996,1801677,2043598,"N","N","N"
+"Philadelphia Phillies",1997,1490638,1801677,"N","N","N"
+"Philadelphia Phillies",1998,1715722,1490638,"N","N","N"
+"Philadelphia Phillies",1999,1825337,1715722,"N","N","N"
+"Philadelphia Phillies",2000,1612769,1825337,"N","N","N"
+"Philadelphia Phillies",2001,1782054,1612769,"N","N","N"
+"Philadelphia Phillies",2002,1618467,1782054,"N","N","N"
+"Philadelphia Phillies",2003,2259948,1618467,"N","N","N"
+"Philadelphia Phillies",2004,3250092,2259948,"N","N","N"
+"Philadelphia Phillies",2005,2665304,3250092,"N","N","N"
+"Philadelphia Phillies",2006,2701815,2665304,"N","N","N"
+"Philadelphia Phillies",2007,3108325,2701815,"N","Y","N"
+"Philadelphia Phillies",2008,3422583,3108325,"Y","Y","N"
+"Philadelphia Phillies",2009,3600693,3422583,"N","Y","N"
+"Philadelphia Phillies",2010,3647249,3600693,"N","Y","N"
+"Philadelphia Phillies",2011,3680718,3647249,"N","Y","N"
+"Philadelphia Phillies",2012,3565718,3680718,"N","N","N"
+"Philadelphia Phillies",2013,3012403,3565718,"N","N","N"
+"Philadelphia Phillies",2014,2423852,3012403,"N","N","N"
+"Philadelphia Phillies",2015,1831080,2423852,"N","N","N"
+"Philadelphia Phillies",2016,1915144,1831080,"N","N","N"
+"Pittsburgh Pirates",1969,769369,1915144,"N","N",NULL
+"Pittsburgh Pirates",1970,1341947,769369,"N","Y",NULL
+"Pittsburgh Pirates",1971,1501132,1341947,"Y","Y",NULL
+"Pittsburgh Pirates",1972,1427460,1501132,"N","Y",NULL
+"Pittsburgh Pirates",1973,1319913,1427460,"N","N",NULL
+"Pittsburgh Pirates",1974,1110552,1319913,"N","Y",NULL
+"Pittsburgh Pirates",1975,1270018,1110552,"N","Y",NULL
+"Pittsburgh Pirates",1976,1025945,1270018,"N","N",NULL
+"Pittsburgh Pirates",1977,1237349,1025945,"N","N",NULL
+"Pittsburgh Pirates",1978,964106,1237349,"N","N",NULL
+"Pittsburgh Pirates",1979,1435454,964106,"Y","Y",NULL
+"Pittsburgh Pirates",1980,1646757,1435454,"N","N",NULL
+"Pittsburgh Pirates",1981,541789,1646757,"N","N",NULL
+"Pittsburgh Pirates",1982,1024106,541789,"N","N",NULL
+"Pittsburgh Pirates",1983,1225916,1024106,"N","N",NULL
+"Pittsburgh Pirates",1984,773500,1225916,"N","N",NULL
+"Pittsburgh Pirates",1985,735900,773500,"N","N",NULL
+"Pittsburgh Pirates",1986,1000917,735900,"N","N",NULL
+"Pittsburgh Pirates",1987,1161193,1000917,"N","N",NULL
+"Pittsburgh Pirates",1988,1866713,1161193,"N","N",NULL
+"Pittsburgh Pirates",1989,1374141,1866713,"N","N",NULL
+"Pittsburgh Pirates",1990,2049908,1374141,"N","Y",NULL
+"Pittsburgh Pirates",1991,2065302,2049908,"N","Y",NULL
+"Pittsburgh Pirates",1992,1829395,2065302,"N","Y",NULL
+"Pittsburgh Pirates",1993,1650593,1829395,"N","N",NULL
+"Pittsburgh Pirates",1995,905517,1650593,"N","N","N"
+"Pittsburgh Pirates",1996,1332150,905517,"N","N","N"
+"Pittsburgh Pirates",1997,1657022,1332150,"N","N","N"
+"Pittsburgh Pirates",1998,1560950,1657022,"N","N","N"
+"Pittsburgh Pirates",1999,1638023,1560950,"N","N","N"
+"Pittsburgh Pirates",2000,1748908,1638023,"N","N","N"
+"Pittsburgh Pirates",2001,2464870,1748908,"N","N","N"
+"Pittsburgh Pirates",2002,1784988,2464870,"N","N","N"
+"Pittsburgh Pirates",2003,1636751,1784988,"N","N","N"
+"Pittsburgh Pirates",2004,1580031,1636751,"N","N","N"
+"Pittsburgh Pirates",2005,1817245,1580031,"N","N","N"
+"Pittsburgh Pirates",2006,1861549,1817245,"N","N","N"
+"Pittsburgh Pirates",2007,1749142,1861549,"N","N","N"
+"Pittsburgh Pirates",2008,1609076,1749142,"N","N","N"
+"Pittsburgh Pirates",2009,1577853,1609076,"N","N","N"
+"Pittsburgh Pirates",2010,1613399,1577853,"N","N","N"
+"Pittsburgh Pirates",2011,1940429,1613399,"N","N","N"
+"Pittsburgh Pirates",2012,2091918,1940429,"N","N","N"
+"Pittsburgh Pirates",2013,2256862,2091918,"N","N","Y"
+"Pittsburgh Pirates",2014,2442564,2256862,"N","N","Y"
+"Pittsburgh Pirates",2015,2498596,2442564,"N","N","Y"
+"Pittsburgh Pirates",2016,2249201,2498596,"N","N","N"
+"San Diego Padres",1969,512970,2249201,"N","N",NULL
+"San Diego Padres",1970,643679,512970,"N","N",NULL
+"San Diego Padres",1971,557513,643679,"N","N",NULL
+"San Diego Padres",1972,644273,557513,"N","N",NULL
+"San Diego Padres",1973,611826,644273,"N","N",NULL
+"San Diego Padres",1974,1075399,611826,"N","N",NULL
+"San Diego Padres",1975,1281747,1075399,"N","N",NULL
+"San Diego Padres",1976,1458478,1281747,"N","N",NULL
+"San Diego Padres",1977,1376269,1458478,"N","N",NULL
+"San Diego Padres",1978,1670107,1376269,"N","N",NULL
+"San Diego Padres",1979,1456967,1670107,"N","N",NULL
+"San Diego Padres",1980,1139026,1456967,"N","N",NULL
+"San Diego Padres",1981,519161,1139026,"N","N",NULL
+"San Diego Padres",1982,1607516,519161,"N","N",NULL
+"San Diego Padres",1983,1539815,1607516,"N","N",NULL
+"San Diego Padres",1984,1983904,1539815,"N","Y",NULL
+"San Diego Padres",1985,2210352,1983904,"N","N",NULL
+"San Diego Padres",1986,1805716,2210352,"N","N",NULL
+"San Diego Padres",1987,1454061,1805716,"N","N",NULL
+"San Diego Padres",1988,1506896,1454061,"N","N",NULL
+"San Diego Padres",1989,2009031,1506896,"N","N",NULL
+"San Diego Padres",1990,1856396,2009031,"N","N",NULL
+"San Diego Padres",1991,1804289,1856396,"N","N",NULL
+"San Diego Padres",1992,1721406,1804289,"N","N",NULL
+"San Diego Padres",1993,1375432,1721406,"N","N",NULL
+"San Diego Padres",1995,1041805,1375432,"N","N","N"
+"San Diego Padres",1996,2187886,1041805,"N","Y","N"
+"San Diego Padres",1997,2089333,2187886,"N","N","N"
+"San Diego Padres",1998,2555874,2089333,"N","Y","N"
+"San Diego Padres",1999,2523538,2555874,"N","N","N"
+"San Diego Padres",2000,2352443,2523538,"N","N","N"
+"San Diego Padres",2001,2378128,2352443,"N","N","N"
+"San Diego Padres",2002,2220601,2378128,"N","N","N"
+"San Diego Padres",2003,2030084,2220601,"N","N","N"
+"San Diego Padres",2004,3016752,2030084,"N","N","N"
+"San Diego Padres",2005,2869787,3016752,"N","Y","N"
+"San Diego Padres",2006,2659757,2869787,"N","Y","N"
+"San Diego Padres",2007,2790074,2659757,"N","N","N"
+"San Diego Padres",2008,2427535,2790074,"N","N","N"
+"San Diego Padres",2009,1919603,2427535,"N","N","N"
+"San Diego Padres",2010,2131774,1919603,"N","N","N"
+"San Diego Padres",2011,2143018,2131774,"N","N","N"
+"San Diego Padres",2012,2123721,2143018,"N","N","N"
+"San Diego Padres",2013,2166691,2123721,"N","N","N"
+"San Diego Padres",2014,2195373,2166691,"N","N","N"
+"San Diego Padres",2015,2459742,2195373,"N","N","N"
+"San Diego Padres",2016,2351422,2459742,"N","N","N"
+"Seattle Pilots",1969,677944,2351422,"N","N",NULL
+"Seattle Mariners",1977,1338511,677944,"N","N",NULL
+"Seattle Mariners",1978,877440,1338511,"N","N",NULL
+"Seattle Mariners",1979,844447,877440,"N","N",NULL
+"Seattle Mariners",1980,836204,844447,"N","N",NULL
+"Seattle Mariners",1981,636276,836204,"N","N",NULL
+"Seattle Mariners",1982,1070404,636276,"N","N",NULL
+"Seattle Mariners",1983,813537,1070404,"N","N",NULL
+"Seattle Mariners",1984,870372,813537,"N","N",NULL
+"Seattle Mariners",1985,1128696,870372,"N","N",NULL
+"Seattle Mariners",1986,1029045,1128696,"N","N",NULL
+"Seattle Mariners",1987,1134255,1029045,"N","N",NULL
+"Seattle Mariners",1988,1022398,1134255,"N","N",NULL
+"Seattle Mariners",1989,1298443,1022398,"N","N",NULL
+"Seattle Mariners",1990,1509727,1298443,"N","N",NULL
+"Seattle Mariners",1991,2147905,1509727,"N","N",NULL
+"Seattle Mariners",1992,1651367,2147905,"N","N",NULL
+"Seattle Mariners",1993,2052638,1651367,"N","N",NULL
+"Seattle Mariners",1995,1643203,2052638,"N","Y","N"
+"Seattle Mariners",1996,2723850,1643203,"N","N","N"
+"Seattle Mariners",1997,3192237,2723850,"N","Y","N"
+"Seattle Mariners",1998,2651511,3192237,"N","N","N"
+"Seattle Mariners",1999,2916346,2651511,"N","N","N"
+"Seattle Mariners",2000,2914624,2916346,"N","N","Y"
+"Seattle Mariners",2001,3507326,2914624,"N","Y","N"
+"Seattle Mariners",2002,3542938,3507326,"N","N","N"
+"Seattle Mariners",2003,3268509,3542938,"N","N","N"
+"Seattle Mariners",2004,2940731,3268509,"N","N","N"
+"Seattle Mariners",2005,2725459,2940731,"N","N","N"
+"Seattle Mariners",2006,2481165,2725459,"N","N","N"
+"Seattle Mariners",2007,2672223,2481165,"N","N","N"
+"Seattle Mariners",2008,2329702,2672223,"N","N","N"
+"Seattle Mariners",2009,2195533,2329702,"N","N","N"
+"Seattle Mariners",2010,2085488,2195533,"N","N","N"
+"Seattle Mariners",2011,1939421,2085488,"N","N","N"
+"Seattle Mariners",2012,1721920,1939421,"N","N","N"
+"Seattle Mariners",2013,1761546,1721920,"N","N","N"
+"Seattle Mariners",2014,2064334,1761546,"N","N","N"
+"Seattle Mariners",2015,2193581,2064334,"N","N","N"
+"Seattle Mariners",2016,2267928,2193581,"N","N","N"
+"San Francisco Giants",1969,873603,2267928,"N","N",NULL
+"San Francisco Giants",1970,740720,873603,"N","N",NULL
+"San Francisco Giants",1971,1106043,740720,"N","Y",NULL
+"San Francisco Giants",1972,647744,1106043,"N","N",NULL
+"San Francisco Giants",1973,834193,647744,"N","N",NULL
+"San Francisco Giants",1974,519987,834193,"N","N",NULL
+"San Francisco Giants",1975,522919,519987,"N","N",NULL
+"San Francisco Giants",1976,626868,522919,"N","N",NULL
+"San Francisco Giants",1977,700056,626868,"N","N",NULL
+"San Francisco Giants",1978,1740477,700056,"N","N",NULL
+"San Francisco Giants",1979,1456402,1740477,"N","N",NULL
+"San Francisco Giants",1980,1096115,1456402,"N","N",NULL
+"San Francisco Giants",1981,632274,1096115,"N","N",NULL
+"San Francisco Giants",1982,1200948,632274,"N","N",NULL
+"San Francisco Giants",1983,1251530,1200948,"N","N",NULL
+"San Francisco Giants",1984,1001545,1251530,"N","N",NULL
+"San Francisco Giants",1985,818697,1001545,"N","N",NULL
+"San Francisco Giants",1986,1528748,818697,"N","N",NULL
+"San Francisco Giants",1987,1917168,1528748,"N","Y",NULL
+"San Francisco Giants",1988,1785297,1917168,"N","N",NULL
+"San Francisco Giants",1989,2059701,1785297,"N","Y",NULL
+"San Francisco Giants",1990,1975528,2059701,"N","N",NULL
+"San Francisco Giants",1991,1737478,1975528,"N","N",NULL
+"San Francisco Giants",1992,1560998,1737478,"N","N",NULL
+"San Francisco Giants",1993,2606354,1560998,"N","N",NULL
+"San Francisco Giants",1995,1241500,2606354,"N","N","N"
+"San Francisco Giants",1996,1413922,1241500,"N","N","N"
+"San Francisco Giants",1997,1690869,1413922,"N","Y","N"
+"San Francisco Giants",1998,1925364,1690869,"N","N","N"
+"San Francisco Giants",1999,2078399,1925364,"N","N","N"
+"San Francisco Giants",2000,3318800,2078399,"N","Y","N"
+"San Francisco Giants",2001,3311958,3318800,"N","N","N"
+"San Francisco Giants",2002,3253203,3311958,"N","N","Y"
+"San Francisco Giants",2003,3264898,3253203,"N","Y","N"
+"San Francisco Giants",2004,3256854,3264898,"N","N","N"
+"San Francisco Giants",2005,3181023,3256854,"N","N","N"
+"San Francisco Giants",2006,3130313,3181023,"N","N","N"
+"San Francisco Giants",2007,3223215,3130313,"N","N","N"
+"San Francisco Giants",2008,2863837,3223215,"N","N","N"
+"San Francisco Giants",2009,2862110,2863837,"N","N","N"
+"San Francisco Giants",2010,3037443,2862110,"Y","Y","N"
+"San Francisco Giants",2011,3387303,3037443,"N","N","N"
+"San Francisco Giants",2012,3377371,3387303,"Y","Y","N"
+"San Francisco Giants",2013,3326796,3377371,"N","N","N"
+"San Francisco Giants",2014,3368697,3326796,"Y","N","Y"
+"San Francisco Giants",2015,3375882,3368697,"N","N","N"
+"San Francisco Giants",2016,3365256,3375882,"N","N","Y"
+"St. Louis Cardinals",1969,1682783,3365256,"N","N",NULL
+"St. Louis Cardinals",1970,1629736,1682783,"N","N",NULL
+"St. Louis Cardinals",1971,1604671,1629736,"N","N",NULL
+"St. Louis Cardinals",1972,1196894,1604671,"N","N",NULL
+"St. Louis Cardinals",1973,1574046,1196894,"N","N",NULL
+"St. Louis Cardinals",1974,1838413,1574046,"N","N",NULL
+"St. Louis Cardinals",1975,1695270,1838413,"N","N",NULL
+"St. Louis Cardinals",1976,1207079,1695270,"N","N",NULL
+"St. Louis Cardinals",1977,1659287,1207079,"N","N",NULL
+"St. Louis Cardinals",1978,1278215,1659287,"N","N",NULL
+"St. Louis Cardinals",1979,1627256,1278215,"N","N",NULL
+"St. Louis Cardinals",1980,1385147,1627256,"N","N",NULL
+"St. Louis Cardinals",1981,1010247,1385147,"N","N",NULL
+"St. Louis Cardinals",1982,2111906,1010247,"Y","Y",NULL
+"St. Louis Cardinals",1983,2317914,2111906,"N","N",NULL
+"St. Louis Cardinals",1984,2037448,2317914,"N","N",NULL
+"St. Louis Cardinals",1985,2637563,2037448,"N","Y",NULL
+"St. Louis Cardinals",1986,2471974,2637563,"N","N",NULL
+"St. Louis Cardinals",1987,3072122,2471974,"N","Y",NULL
+"St. Louis Cardinals",1988,2892799,3072122,"N","N",NULL
+"St. Louis Cardinals",1989,3080980,2892799,"N","N",NULL
+"St. Louis Cardinals",1990,2573225,3080980,"N","N",NULL
+"St. Louis Cardinals",1991,2448699,2573225,"N","N",NULL
+"St. Louis Cardinals",1992,2418483,2448699,"N","N",NULL
+"St. Louis Cardinals",1993,2844977,2418483,"N","N",NULL
+"St. Louis Cardinals",1995,1756727,2844977,"N","N","N"
+"St. Louis Cardinals",1996,2654718,1756727,"N","Y","N"
+"St. Louis Cardinals",1997,2634014,2654718,"N","N","N"
+"St. Louis Cardinals",1998,3195691,2634014,"N","N","N"
+"St. Louis Cardinals",1999,3225334,3195691,"N","N","N"
+"St. Louis Cardinals",2000,3336493,3225334,"N","Y","N"
+"St. Louis Cardinals",2001,3109578,3336493,"N","N","Y"
+"St. Louis Cardinals",2002,3011756,3109578,"N","Y","N"
+"St. Louis Cardinals",2003,2910386,3011756,"N","N","N"
+"St. Louis Cardinals",2004,3048427,2910386,"N","Y","N"
+"St. Louis Cardinals",2005,3538988,3048427,"N","Y","N"
+"St. Louis Cardinals",2006,3407104,3538988,"Y","Y","N"
+"St. Louis Cardinals",2007,3552180,3407104,"N","N","N"
+"St. Louis Cardinals",2008,3432917,3552180,"N","N","N"
+"St. Louis Cardinals",2009,3343252,3432917,"N","Y","N"
+"St. Louis Cardinals",2010,3301218,3343252,"N","N","N"
+"St. Louis Cardinals",2011,3093954,3301218,"Y","N","Y"
+"St. Louis Cardinals",2012,3262109,3093954,"N","N","Y"
+"St. Louis Cardinals",2013,3369769,3262109,"N","Y","N"
+"St. Louis Cardinals",2014,3540649,3369769,"N","Y","N"
+"St. Louis Cardinals",2015,3520889,3540649,"N","Y","N"
+"St. Louis Cardinals",2016,3444490,3520889,"N","N","N"
+"Tampa Bay Devil Rays",1998,2506293,3444490,"N","N","N"
+"Tampa Bay Devil Rays",1999,1562827,2506293,"N","N","N"
+"Tampa Bay Devil Rays",2000,1449673,1562827,"N","N","N"
+"Tampa Bay Devil Rays",2001,1298365,1449673,"N","N","N"
+"Tampa Bay Devil Rays",2002,1065742,1298365,"N","N","N"
+"Tampa Bay Devil Rays",2003,1058695,1065742,"N","N","N"
+"Tampa Bay Devil Rays",2004,1274911,1058695,"N","N","N"
+"Tampa Bay Devil Rays",2005,1141669,1274911,"N","N","N"
+"Tampa Bay Devil Rays",2006,1368950,1141669,"N","N","N"
+"Tampa Bay Devil Rays",2007,1387603,1368950,"N","N","N"
+"Tampa Bay Rays",2008,1811986,1387603,"N","Y","N"
+"Tampa Bay Rays",2009,1874962,1811986,"N","N","N"
+"Tampa Bay Rays",2010,1843445,1874962,"N","Y","N"
+"Tampa Bay Rays",2011,1529188,1843445,"N","N","Y"
+"Tampa Bay Rays",2012,1559681,1529188,"N","N","N"
+"Tampa Bay Rays",2013,1510300,1559681,"N","N","Y"
+"Tampa Bay Rays",2014,1446464,1510300,"N","N","N"
+"Tampa Bay Rays",2015,1287054,1446464,"N","N","N"
+"Tampa Bay Rays",2016,1286163,1287054,"N","N","N"
+"Texas Rangers",1972,662974,1286163,"N","N",NULL
+"Texas Rangers",1973,686085,662974,"N","N",NULL
+"Texas Rangers",1974,1193902,686085,"N","N",NULL
+"Texas Rangers",1975,1127924,1193902,"N","N",NULL
+"Texas Rangers",1976,1164982,1127924,"N","N",NULL
+"Texas Rangers",1977,1250722,1164982,"N","N",NULL
+"Texas Rangers",1978,1447963,1250722,"N","N",NULL
+"Texas Rangers",1979,1519671,1447963,"N","N",NULL
+"Texas Rangers",1980,1198175,1519671,"N","N",NULL
+"Texas Rangers",1981,850076,1198175,"N","N",NULL
+"Texas Rangers",1982,1154432,850076,"N","N",NULL
+"Texas Rangers",1983,1363469,1154432,"N","N",NULL
+"Texas Rangers",1984,1102471,1363469,"N","N",NULL
+"Texas Rangers",1985,1112497,1102471,"N","N",NULL
+"Texas Rangers",1986,1692002,1112497,"N","N",NULL
+"Texas Rangers",1987,1763053,1692002,"N","N",NULL
+"Texas Rangers",1988,1581901,1763053,"N","N",NULL
+"Texas Rangers",1989,2043993,1581901,"N","N",NULL
+"Texas Rangers",1990,2057911,2043993,"N","N",NULL
+"Texas Rangers",1991,2297720,2057911,"N","N",NULL
+"Texas Rangers",1992,2198231,2297720,"N","N",NULL
+"Texas Rangers",1993,2244616,2198231,"N","N",NULL
+"Texas Rangers",1995,1985910,2244616,"N","N","N"
+"Texas Rangers",1996,2889020,1985910,"N","Y","N"
+"Texas Rangers",1997,2945228,2889020,"N","N","N"
+"Texas Rangers",1998,2927399,2945228,"N","Y","N"
+"Texas Rangers",1999,2771469,2927399,"N","Y","N"
+"Texas Rangers",2000,2588401,2771469,"N","N","N"
+"Texas Rangers",2001,2831021,2588401,"N","N","N"
+"Texas Rangers",2002,2352397,2831021,"N","N","N"
+"Texas Rangers",2003,2094394,2352397,"N","N","N"
+"Texas Rangers",2004,2513685,2094394,"N","N","N"
+"Texas Rangers",2005,2525221,2513685,"N","N","N"
+"Texas Rangers",2006,2388757,2525221,"N","N","N"
+"Texas Rangers",2007,2353862,2388757,"N","N","N"
+"Texas Rangers",2008,1945677,2353862,"N","N","N"
+"Texas Rangers",2009,2156016,1945677,"N","N","N"
+"Texas Rangers",2010,2505171,2156016,"N","Y","N"
+"Texas Rangers",2011,2946949,2505171,"N","Y","N"
+"Texas Rangers",2012,3460280,2946949,"N","N","Y"
+"Texas Rangers",2013,3178273,3460280,"N","N","N"
+"Texas Rangers",2014,2718733,3178273,"N","N","N"
+"Texas Rangers",2015,2491875,2718733,"N","Y","N"
+"Texas Rangers",2016,2710402,2491875,"N","Y","N"
+"Toronto Blue Jays",1977,1701052,2710402,"N","N",NULL
+"Toronto Blue Jays",1978,1562585,1701052,"N","N",NULL
+"Toronto Blue Jays",1979,1431651,1562585,"N","N",NULL
+"Toronto Blue Jays",1980,1400327,1431651,"N","N",NULL
+"Toronto Blue Jays",1981,755083,1400327,"N","N",NULL
+"Toronto Blue Jays",1982,1275978,755083,"N","N",NULL
+"Toronto Blue Jays",1983,1930415,1275978,"N","N",NULL
+"Toronto Blue Jays",1984,2110009,1930415,"N","N",NULL
+"Toronto Blue Jays",1985,2468925,2110009,"N","Y",NULL
+"Toronto Blue Jays",1986,2455477,2468925,"N","N",NULL
+"Toronto Blue Jays",1987,2778429,2455477,"N","N",NULL
+"Toronto Blue Jays",1988,2595175,2778429,"N","N",NULL
+"Toronto Blue Jays",1989,3375883,2595175,"N","Y",NULL
+"Toronto Blue Jays",1990,3885284,3375883,"N","N",NULL
+"Toronto Blue Jays",1991,4001527,3885284,"N","Y",NULL
+"Toronto Blue Jays",1992,4028318,4001527,"Y","Y",NULL
+"Toronto Blue Jays",1993,4057947,4028318,"Y","Y",NULL
+"Toronto Blue Jays",1995,2826483,4057947,"N","N","N"
+"Toronto Blue Jays",1996,2559573,2826483,"N","N","N"
+"Toronto Blue Jays",1997,2589297,2559573,"N","N","N"
+"Toronto Blue Jays",1998,2454303,2589297,"N","N","N"
+"Toronto Blue Jays",1999,2163464,2454303,"N","N","N"
+"Toronto Blue Jays",2000,1705712,2163464,"N","N","N"
+"Toronto Blue Jays",2001,1915438,1705712,"N","N","N"
+"Toronto Blue Jays",2002,1637900,1915438,"N","N","N"
+"Toronto Blue Jays",2003,1799458,1637900,"N","N","N"
+"Toronto Blue Jays",2004,1900041,1799458,"N","N","N"
+"Toronto Blue Jays",2005,2014995,1900041,"N","N","N"
+"Toronto Blue Jays",2006,2302212,2014995,"N","N","N"
+"Toronto Blue Jays",2007,2360644,2302212,"N","N","N"
+"Toronto Blue Jays",2008,2399786,2360644,"N","N","N"
+"Toronto Blue Jays",2009,1876129,2399786,"N","N","N"
+"Toronto Blue Jays",2010,1625555,1876129,"N","N","N"
+"Toronto Blue Jays",2011,1818103,1625555,"N","N","N"
+"Toronto Blue Jays",2012,2099663,1818103,"N","N","N"
+"Toronto Blue Jays",2013,2536562,2099663,"N","N","N"
+"Toronto Blue Jays",2014,2375525,2536562,"N","N","N"
+"Toronto Blue Jays",2015,2794891,2375525,"N","Y","N"
+"Toronto Blue Jays",2016,3392099,2794891,"N","N","Y"
+"Washington Nationals",2005,2731993,3392099,"N","N","N"
+"Washington Nationals",2006,2153056,2731993,"N","N","N"
+"Washington Nationals",2007,1943812,2153056,"N","N","N"
+"Washington Nationals",2008,2320400,1943812,"N","N","N"
+"Washington Nationals",2009,1817226,2320400,"N","N","N"
+"Washington Nationals",2010,1828066,1817226,"N","N","N"
+"Washington Nationals",2011,1940478,1828066,"N","N","N"
+"Washington Nationals",2012,2370794,1940478,"N","Y","N"
+"Washington Nationals",2013,2652422,2370794,"N","N","N"
+"Washington Nationals",2014,2579389,2652422,"N","Y","N"
+"Washington Nationals",2015,2619843,2579389,"N","N","N"
+"Washington Nationals",2016,2481938,2619843,"N","Y","N"
+"Washington Senators",1969,918106,2481938,"N","N",NULL
+"Washington Senators",1970,824789,918106,"N","N",NULL
+"Washington Senators",1971,655156,824789,"N","N",NULL
