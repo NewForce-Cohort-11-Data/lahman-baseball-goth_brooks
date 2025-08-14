@@ -98,6 +98,29 @@ GROUP BY namefirst
 ORDER BY total_salary DESC;
 
 
+-- Megan's version
+SELECT
+  CONCAT(namefirst, ' ', namelast) AS player_name,
+  SUM(salary)::INT::MONEY AS total_salary
+FROM 
+  people
+LEFT JOIN 
+  salaries
+USING 
+  (playerid)
+WHERE playerid IN
+  (SELECT playerid
+    FROM collegeplaying
+    INNER JOIN schools 
+    USING (schoolid)
+    WHERE schoolname ILIKE '%Vanderbilt%')
+GROUP BY 
+  namefirst, 
+  namelast
+ORDER BY 
+  total_salary DESC NULLS LAST;
+
+
 -- Using the fielding table, group players into three groups based on their position: 
 -- label players with position OF as "Outfield", those with position "SS", "1B", "2B", 
 -- and "3B" as "Infield", and those with position "P" or "C" as "Battery". 
@@ -125,7 +148,17 @@ SELECT (FLOOR(yearid/10) * 10) AS decade
 		,COALESCE(ROUND(SUM(so::numeric)/SUM(g::numeric), 2), 0) AS avg_so
 		,COALESCE(ROUND(SUM(hr::numeric)/SUM(g::numeric), 2), 0) AS avg_hr
 FROM batting
+WHERE yearid >= 1920
 GROUP BY decade;
+
+
+SELECT (FLOOR(yearid/10) * 10) AS decade
+		,COALESCE(ROUND(SUM(so::numeric)/SUM(g::numeric), 2), 0) AS avg_so
+		,COALESCE(ROUND(SUM(hr::numeric)/SUM(g::numeric), 2), 0) AS avg_hr
+FROM teams
+WHERE yearid >= 1920
+GROUP BY decade
+ORDER BY decade;
 
 
 -- Find the player who had the most success stealing bases in 2016, 
@@ -273,6 +306,24 @@ GROUP BY team
 ORDER BY avg_attendance
 LIMIT 5;
 
+
+
+-- Sarah's version
+
+SELECT ROUND(SUM(hg.attendance::numeric)/SUM(hg.games::numeric), 0) as avg_attendance
+		,t.park
+		,t.name
+FROM teams as t
+	INNER JOIN homegames as hg
+		ON hg.team = t.teamid
+		AND hg.year = t.yearid
+WHERE hg.games >= 10
+	AND t.yearid = 2016
+GROUP BY t.park
+			,t.name
+ORDER BY avg_attendance 
+LIMIT 5;
+
 -- Which managers have won the TSN Manager of the Year award in both the 
 -- National League (NL) and the American League (AL)? 
 -- Give their full name and the 
@@ -295,10 +346,7 @@ FROM awardsmanagers
 WHERE awardsmanagers.lgid = 'NL'
 ORDER BY manager;
 
-
-
-
-
+-- Michael's or Chris's, I can't remember
 WITH double_awarded AS (
     SELECT 
 		playerid
@@ -331,6 +379,38 @@ WHERE am.awardid LIKE '%TSN%'
 ORDER BY manager, am.yearid;
 
 
+-- Megan's
+SELECT DISTINCT
+    CONCAT(p.namefirst, ' ', p.namelast) AS manager_name,
+    STRING_AGG(
+    a.lgid || ' ' || a.yearid::text || ' (' || t.name || ')',
+    ', ' 
+	ORDER BY a.yearid
+  ) AS award_seasons
+FROM
+    awardsmanagers AS a
+INNER JOIN people AS p 
+	USING (playerid)
+INNER JOIN managers AS m 
+	USING (playerid, yearid, lgid)
+INNER JOIN teams AS t 
+	USING (teamid, lgid, yearid)
+WHERE
+    a.awardid = 'TSN Manager of the Year'
+    AND a.lgid IN ('AL', 'NL') 
+    AND a.playerid IN (
+        SELECT playerid
+        FROM awardsmanagers
+        WHERE awardid = 'TSN Manager of the Year'
+		AND lgid IN ('AL', 'NL')
+        GROUP BY playerid
+		HAVING COUNT(DISTINCT lgid) = 2
+    )
+GROUP BY 
+	p.namefirst, p.namelast
+ORDER BY
+    manager_name, award_seasons;
+
 
 
 
@@ -342,6 +422,29 @@ ORDER BY manager, am.yearid;
 
 --Try to use a subquery filtering the career high of home runs, then select all players with
 --10 or more years in the league and hr >= 1
+
+WITH max_hr AS (
+	SELECT playerid
+		,MAX(hr)::NUMERIC as most_hr
+	FROM batting
+	GROUP BY playerid
+)
+SELECT namefirst
+		,namelast
+		,hr::NUMERIC
+FROM max_hr
+INNER JOIN batting
+	USING (playerid)
+INNER JOIN people
+	USING (playerid)
+WHERE hr = most_hr
+	AND batting.yearid = 2016 
+	AND left(debut, 4)::numeric <= 2007
+	AND hr > 0
+ORDER BY hr DESC
+
+
+
 
 SELECT
 	CONCAT(namefirst, ' ', namelast) AS player_name,
